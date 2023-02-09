@@ -1,4 +1,4 @@
-# Evidence ( of Disease/Phenotype association)
+# Evidence ( of Disease/Phenotype assertion)
 
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
@@ -7,7 +7,9 @@
 | attributes        | array of Attribute | Different databases and experimental methods report different information about an assertion
 | citations         | array of strings | May be PMID, PMCid or DOI
 
-
+## Questions/Comments
+* Should `source` be ExternalDB similar to `variant.primary_source`?
+* Can we model citations better instead of strings (PMID:12345) ?
 
 
 

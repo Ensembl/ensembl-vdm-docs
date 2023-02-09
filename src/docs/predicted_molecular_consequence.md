@@ -13,8 +13,10 @@ A set of information enabling interpretation of likely variant impact on genomic
 | overlaps           | list of OverlapStatement | Description of overlap of allele with feature
 | relative_location(s) | Array of RelativeLocation | 
 
-
-
+## Questions/Comments
+* `labels` should be named better. Taken from GA4GH https://github.com/ga4gh/va-spec/blob/master/docs/Modeling/MolecularConsequence/LB-MHB_MC_DTO_example_10-16-20
+* Can `feature_type` model protein?
+* Further context for `relative_location`. In domain, binding site etc. ?
 
 
 

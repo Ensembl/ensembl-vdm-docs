@@ -12,6 +12,9 @@ A variant is not a feature as it does not have a precise single location but is 
 | type|string |This is a Variant 
 |alleles |array of VariantAllele |List of VariantAlleles
 | citations| array of string|May be PMID, PMCIDor DOI
-| phenotype_associations| array of PhenotypeAssociation|Links to disease where the precise allele is unknown
+| phenotype_assertions| array of PhenotypeAssertion|Links to disease where the precise allele is unknown
 
+
+## Questions/Comments :
+*  What is the best way to model citations? If citations are modeled as an array of ExternalReferences?
 
