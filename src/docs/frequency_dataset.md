@@ -14,7 +14,7 @@
 | source            | ExternalDB      | source of data set
 | populations       | array of Population| Populations that make up this data set
 | chromosomes       | array of string/Chromosomes|
-| dataset_id        | string          | Id to id in DataFile API
+| datafile_id        | string          | Id to id in DataFile API
 | species           | Species         | 
 | assembly          | Assembly        | 
 
