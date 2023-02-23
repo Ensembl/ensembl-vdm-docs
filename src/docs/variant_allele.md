@@ -18,6 +18,7 @@ It does not have a stable_id and version fields - like an intron
 
 ## Questions/Comments :
 * `Variant allele` is a `Feature`, should it have a stable_id? 
+* `name` can be calulated as SPDI on the fly. Not Urgent?
 
 
 
