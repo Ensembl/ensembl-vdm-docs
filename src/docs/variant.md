@@ -11,10 +11,13 @@ A variant is not a feature as it does not have a precise single location but is 
 | primary_source     |ExternalDB       | Resource the initial record came from and where the name is assigned
 | type|string |This is a Variant 
 |alleles |array of VariantAllele |List of VariantAlleles
-| citations| array of string|May be PMID, PMCIDor DOI
+| citations| array of Publications|List of Publications
 | phenotype_assertions| array of PhenotypeAssertion|Links to disease where the precise allele is unknown
 
 
 ## Questions/Comments :
 *  What is the best way to model citations? If citations are modeled as an array of ExternalReferences?
+
+## Changelog
+* citations is array of Publications
 

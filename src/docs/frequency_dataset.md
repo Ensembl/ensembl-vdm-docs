@@ -13,10 +13,14 @@
 | release_date      | Date            |
 | source            | ExternalDB      | source of data set
 | populations       | array of Population| Populations that make up this data set
-| chromosomes       | array of string/Chromosomes|
-| datafile_id        | string          | Id to id in DataFile API
-| species           | Species         | 
-| assembly          | Assembly        | 
+| organism           | Organism         | 
+
+## Changelog
+* Removed datafile_id
+* Changed species to organism
+* Removed chromosomes
+* Removed assembly
+
 
 
 

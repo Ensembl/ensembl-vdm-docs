@@ -8,8 +8,8 @@ It does not have a stable_id and version fields - like an intron
 | allele_sequence    |                 | Alternative allele with respect to this sequence/ slice
 | reference_sequence |                 | Reference allele with respect to this sequence/ slice
 | alternative_names  | array of External Reference| Alternative names + source info
-| type               | string                     | This is always Allele
-| allele_type        | string (limited dictionary/ ValueDataSet)| SO type eg. insertion, deletion
+| type               | string                     | This is always VariantAllele
+| allele_type        | OntologyTermMetadata| SO type eg. insertion, deletion
 | slice              | Slice                      | Slice describing the coordinates of the allele
 | population_frequencies| array of PopulationFrequency| Shows rate of occurrence in different populations. Can be empty
 | phenotype_assertions| array of Phenotype Assertion| Links to disease where the precise allele is known. Can be empty
@@ -19,6 +19,10 @@ It does not have a stable_id and version fields - like an intron
 ## Questions/Comments :
 * `Variant allele` is a `Feature`, should it have a stable_id? 
 * `name` can be calulated as SPDI on the fly. Not Urgent?
+
+## Changelog
+* type is VariantAllele
+* allele_type is OntologyTermMetadata
 
 
 
