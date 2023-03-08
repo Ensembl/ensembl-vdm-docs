@@ -7,8 +7,6 @@
 | attributes        | array of Attribute | Different databases and experimental methods report different information about an assertion
 | citations         | array of Publications | List of Publications
 
-## Questions/Comments
-* Can we model citations better instead of strings (PMID:12345) ?
 
 
 
