@@ -1,0 +1,297 @@
+{
+  "name": "NC_000001.1:230710048:A:G",
+  "allele_sequence": "G",
+  "reference_sequence": "A",
+  "alternative_names": [
+      {
+        "accession_id": "VCV000018068",
+        "name": "VCV000018068",
+        "description": null,
+        "assignment_method": {
+          "type": "DIRECT",
+          "description": "A reference made by external source to a dbSNP rsid"
+        },
+        "url": "http://www.ncbi.nlm.nih.gov/clinvar/variation/VCV000018068",
+        "source": {
+          "id": "ClinVar",
+          "name": "ClinVar",
+          "description": null,
+          "url": "http://www.ncbi.nlm.nih.gov/clinvar/",
+          "release": "202201"
+        }
+      },
+
+      {
+        "accession_id": "106150.0001",
+        "name": "106150.0001",
+        "description": null,
+        "assignment_method": {
+          "type": "DIRECT",
+          "description": "A reference made by external source to a dbSNP rsid"
+        },
+        "url": "http://www.omim.org/106150#0001",
+        "source": {
+          "id": "OMIM",
+          "name": "OMIM",
+          "description": null,
+          "url": "http://www.omim.org/",
+          "release": "202201"
+        }
+      },
+
+      {
+        "accession_id": "PA166153539",
+        "name": "PA166153539",
+        "description": null,
+        "assignment_method": {
+          "type": "DIRECT",
+          "description": "A reference made by external source to a dbSNP rsid"
+        },
+        "url": "https://www.pharmgkb.org/rsid/rs699",
+        "source": {
+          "id": "PharmGKB",
+          "name": "PharmGKB",
+          "description": null,
+          "url": "https://www.pharmgkb.org/",
+          "release": "20210202"
+        }
+      },
+
+      {
+        "accession_id": "VAR_007096",
+        "name": "VAR_007096",
+        "description": null,
+        "assignment_method": {
+          "type": "DIRECT",
+          "description": "A reference made by external source to a dbSNP rsid"
+        },
+        "url": "",
+        "source": {
+          "id": "UniProt",
+          "name": "UniProt",
+          "description": null,
+          "url": "https://www.uniprot.org/",
+          "release": "20220211"
+        }
+      },
+
+      {
+        "accession_id": "CA127784",
+        "name": "CA127784",
+        "description": null,
+        "assignment_method": {
+          "type": "DIRECT",
+          "description": "A reference made by external source to a dbSNP rsid"
+        },
+        "url": "http://reg.clinicalgenome.org/redmine/projects/registry/genboree_registry/by_caid?caid=CA127784",
+        "source": {
+          "id": "ClinGen Allele Registry",
+          "name": "ClinGen Allele Registry",
+          "description": null,
+          "url": "http://reg.clinicalgenome.org/",
+          "release": "20220211"
+        }
+      }
+  ],
+  "type": "Allele",
+  "so_term": "SO:0001023",
+  "allele_type": "SO:0001483",
+  "slice": {
+    "location": {
+      "start": 3230710048,
+      "end": 230710048,
+      "length": 1
+    },
+    "region": {
+      "name": "NC_000001.1",
+      "code": "chromosome",
+      "topology": "linear",
+      "so_term": "SO:0001217",
+      "length": 1
+    },
+    "strand": {
+      "code": "forward",
+      "value": 1
+    }
+  },
+    "population_frequencies": [
+      {
+        "allele_id": 43581,
+        "variant_allele": {},
+        "population": {
+          "population_id": 373507,
+          "name": "1000GENOMES:phase_3:ALL",
+          "size": 2504,
+          "description": "All phase 3 individuals",
+          "type": "geography",
+          "freqs_from_gts": 1,
+          "display_group_id": 1,
+          "display_group_name": "1000Genomes Phase 3",
+          "display_group_priority": 1.5
+        },
+        "allele_count": 1477,
+        "allele_number": 5008,
+        "allele_frequency": 0.295,
+        "dataset":
+          {
+            "frequency_dataset_id": 12671,
+            "version": "2.1",
+            "release_date": "2021-01-23",
+            "source": {},
+            "populations": {
+              "super_population": [373507],
+              "sub_population": [373509, 373510, 373518, 373520, 373535]
+            },
+            "chromosomes": [1],
+            "Dataset_id": "Link to datafiles API",
+            "species": {"name": "homo_sapiens"},
+            "assembly": {"name": "GRCh38"}
+          },
+        "filter": "PASS",
+        "minor_allele": true
+      }
+    ],
+    "Sample_genotypes": [
+      {"PlaceHolder": "TBC"}
+    ],
+    "Phenotype_associations": [
+        {
+          "feature": "NC_000001.1:230710048A:G",
+          "feature_type": "Allele",
+          "phenotype": {
+            "term": "Coronary Artery Disease"
+          },
+          "evidence": [
+            {
+              "source": {
+                "id": "2",
+                "name": "NHGRI-EBI GWAS catalog",
+                "description": null,
+                "url": null,
+                "release": "2021-07-01"
+              },
+              "citations": [
+                "PMID:29212778"
+              ],
+              "attributes": [
+                {
+                  "type": "beta_coefficient",
+                  "value": "0.036 unitdecrease"
+                },
+                {
+                  "type": "associated_gene",
+                  "value": "AGT"
+                },
+                {
+                  "type": "pvalue",
+                  "value": "2.00e-8"
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "feature": "NC_000001.1:.230710048A:G",
+          "feature_type": "Allele",
+          "phenotype": {
+            "term": "Preeclampsia"
+          },
+          "evidence": [
+            {
+              "source": {
+                "name": "ClinVar",
+                "version": "2021-07-07"
+              },
+              "assertion": "risk factor",
+              "citations": [
+                "PMID:8518804",
+                "PMID:7649545",
+                "PMID:16059745",
+                "PMID:9259580",
+                "PMID:7883995",
+                "PMID:8348146",
+                "PMID:9831339",
+                "PMID:8513325",
+                "PMID:9421481"
+              ],
+              "attributes": [
+                {
+                  "type": "review status",
+                  "value": "expert panel"
+                },
+                {
+                  "type": "associated_gene",
+                  "value": "AGT"
+                },
+                {
+                  "type": "external identifier",
+                  "value": "MIM:106150"
+                }
+              ]
+            }
+          ]
+        }
+    ],
+    "predicted_molecular_consequences": [{
+        "allele": "NC_000001.1:230710048A:G",
+        "feature": "ENST00000366667.6",
+        "feature_type": "SO:0000673",
+        "consequences": [
+          "missense_variant"
+        ],
+        "labels": [
+          {
+            "system": "HGVS",
+            "value": "ENST00000366667.6:c.776T>C"
+          },
+          {
+            "system": "SPDI",
+            "value": "ENST00000366667.6:776:T:C"
+          }
+        ],
+        "prediction_results": [
+          {
+            "score": 1,
+            "classification": "tolerated",
+            "package": "SIFT",
+            "version": "5.2.2",
+            "dataset": null
+          }
+        ],
+        "relative_location": [
+          {
+            "Subject": "NC_000001.1:.230710048:A:G",
+            "Object": "ENST00000679684.1",
+            "Relation": "overlaps",
+            "Start": 843,
+            "End": 843,
+            "Length": 1,
+            "Percentage_overlap": 0.125
+          },
+
+          {
+            "Subject": "NC_000001.1:.230710048:A:G",
+            "Object": "ENST00000679684.1_cds",
+            "Relation": "overlaps",
+            "Start": 776,
+            "End": 776,
+            "Length": 0,
+            "Percentage_overlap": 0.13
+          },
+
+          {
+            "Subject": "NC_000001.1:.230710048:A:G",
+            "Object": "ENSP00000505981",
+            "Relation": "overlaps",
+            "Start": 259,
+            "End":  259,
+            "Length": 1,
+            "Percentage_overlap": 0.3
+          }
+        ]
+      }],
+    "experimental_consequences": [
+      {"PlaceHolder": "TBC"}
+    ]
+}
