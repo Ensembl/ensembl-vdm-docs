@@ -94,7 +94,6 @@
       }
   ],
   "type": "VariantAllele",
-  "so_term": "SO:0001023", 
   "allele_type": {
     "accession_id": "SO:0001483",
     "value": "SNV",
@@ -185,7 +184,7 @@
       "is_minor_allele": true
     }
   ],
-  "Phenotype_assertions": [
+  "phenotype_assertions": [
       {
         "feature": "NC_000001.1:230710048A:G",
         "feature_type": "VariantAllele",
