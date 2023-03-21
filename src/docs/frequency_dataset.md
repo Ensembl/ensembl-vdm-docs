@@ -8,7 +8,6 @@
 
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
-| frequency_dataset_id| integer       | Unique internal identifier
 | version           |string           |
 | release_date      | Date            |
 | source            | ExternalDB      | source of data set
