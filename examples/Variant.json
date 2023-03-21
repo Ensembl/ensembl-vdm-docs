@@ -1,0 +1,58 @@
+{
+    "name": "rs699",
+    "alternative_names": [],
+    "primary source":   {
+                            "id" : 1,
+                            "name": "dbSNP",
+                            "description": "NCBI db of human variants",
+                            "url":  "https://www.ncbi.nlm.nih.gov/snp/",
+                            "release": 154
+                        },
+    "type": "Variant",
+    "prediction_summary": [
+                            {   "score": null ,
+                                "result":"G",
+                                "analysis_method" : {   
+                                                        "tool": "AncestralAllele",
+                                                        "version":  "108",
+                                                        "qualifier": "",
+                                                        "dataset": ""
+                                                    }
+                            },
+                            {   
+                                "score" : -2.88  ,
+                                "result": null,
+                                "analysis_method":  { 
+                                                        "tool": "GERP",
+                                                        "version":  "",
+                                                        "qualifier": "",
+                                                        "dataset":  {
+                                                                        "id": "90_mamals.gerp_conservation_score",
+                                                                        "name": "90_mamals.gerp_conservation_score",
+                                                                        "description": null,
+                                                                        "url": null,
+                                                                        "release": null
+                                                        }
+                                                    }
+                            },
+                            { 
+                                "score":  null,
+                                "result": "missense_variant" ,
+                                "analysis_method":  {  
+                                                        "tool": "Ensembl VEP", 
+                                                        "qualifier": "most severe  consequence",
+                                                        "version":  "108",
+                                                        "dataset": {
+                                                                        "id": "Ensembl 108",
+                                                                        "name": "Ensembl 108",
+                                                                        "description": null,
+                                                                        "url": null,
+                                                                        "release": null   
+                                                        }
+                                                    }
+                }
+   ],
+    "alleles": [],
+    "citations": [],
+    "phenotype_associations" :[]
+ }
