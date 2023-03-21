@@ -12,7 +12,9 @@ A group of samples which have been studied and are logical to consider together
 | is_from_genotypes| boolean         | frequency from genotypes or from individuals/sample genotypes
 | display_group_name| string          | The name of the group of populations this population belongs to, serves as a table header
 on population genetics page
-| display_group_priority| integer     | Retrieves the priority of the group of populations this population belongs to, enabling the ordering of frequency data on the Population genetics page
+| super_population  | Population      | Super population if exists 
+| sub_population    | Population      | Sub population if exists
+
 
 
 
