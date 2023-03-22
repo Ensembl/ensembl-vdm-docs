@@ -12,7 +12,7 @@ A group of samples which have been studied and are logical to consider together
 | is_from_genotypes| boolean         | frequency from genotypes or from individuals/sample genotypes
 | display_group_name| string          | The name of the group of populations this population belongs to, serves as a table header on population genetics page
 | super_population  | Population or null     | Super population if exists
-| sub_population    | array of Population or null    | Sub population if exists
+| sub_populations    | array of Population or []    | Sub population if exists
 
 
 
