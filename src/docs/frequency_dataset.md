@@ -8,8 +8,8 @@
 
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
-| version           |string           |
-| release_date      | Date            |
+| version           | string          | 
+| release_date      | string          | YYYY-MM-DD
 | source            | ExternalDB      | source of data set
 | populations       | array of Population| Populations that make up this data set
 | organism           | Organism         | 
