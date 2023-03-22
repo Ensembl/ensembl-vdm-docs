@@ -50,9 +50,232 @@
                                                                         "release": null   
                                                         }
                                                     }
-                }
-   ],
-    "alleles": [],
-    "citations": [],
-    "phenotype_associations" :[]
+                }],
+    "alleles":  [{
+                    "name": "NC_000001.1:230710048:A:G",
+                    "slice": {
+                                "location": {
+                                "start": 3230710048,
+                                "end": 230710048,
+                                "length": 1
+                                },
+                                "region": {
+                                "name": "NC_000001.1",
+                                "code": "chromosome",
+                                "topology": "linear",
+                                "so_term": "SO:0001217",
+                                "length": 1
+                                },
+                                "strand": {
+                                "code": "forward",
+                                "value": 1
+                                }
+                            },
+                    "allele_sequence": "G",
+                    "reference_sequence": "A",
+                    "alternative_names": [
+                        {
+                            "accession_id": "VCV000018068",
+                            "name": "VCV000018068",
+                            "description": null,
+                            "assignment_method": {
+                            "type": "DIRECT",
+                            "description": "A reference made by external source to a dbSNP rsid"
+                            },
+                            "url": "http://www.ncbi.nlm.nih.gov/clinvar/variation/VCV000018068",
+                            "source": {
+                            "id": "ClinVar",
+                            "name": "ClinVar",
+                            "description": null,
+                            "url": "http://www.ncbi.nlm.nih.gov/clinvar/",
+                            "release": "202201"
+                            }
+                        },
+                    
+                        {
+                            "accession_id": "106150.0001",
+                            "name": "106150.0001",
+                            "description": null,
+                            "assignment_method": {
+                            "type": "DIRECT",
+                            "description": "A reference made by external source to a dbSNP rsid"
+                            },
+                            "url": "http://www.omim.org/106150#0001",
+                            "source": {
+                            "id": "OMIM",
+                            "name": "OMIM",
+                            "description": null,
+                            "url": "http://www.omim.org/",
+                            "release": "202201"
+                            }
+                        },
+                    
+                        {
+                            "accession_id": "PA166153539",
+                            "name": "PA166153539",
+                            "description": null,
+                            "assignment_method": {
+                            "type": "DIRECT",
+                            "description": "A reference made by external source to a dbSNP rsid"
+                            },
+                            "url": "https://www.pharmgkb.org/rsid/rs699",
+                            "source": {
+                            "id": "PharmGKB",
+                            "name": "PharmGKB",
+                            "description": null,
+                            "url": "https://www.pharmgkb.org/",
+                            "release": "20210202"
+                            }
+                        },
+                    
+                        {
+                            "accession_id": "VAR_007096",
+                            "name": "VAR_007096",
+                            "description": null,
+                            "assignment_method": {
+                            "type": "DIRECT",
+                            "description": "A reference made by external source to a dbSNP rsid"
+                            },
+                            "url": "",
+                            "source": {
+                            "id": "UniProt",
+                            "name": "UniProt",
+                            "description": null,
+                            "url": "https://www.uniprot.org/",
+                            "release": "20220211"
+                            }
+                        },
+                        {
+                            "accession_id": "CA127784",
+                            "name": "CA127784",
+                            "description": null,
+                            "assignment_method": {
+                                "type": "DIRECT",
+                                "description": "A reference made by external source to a dbSNP rsid"
+                            },
+                            "url": "http://reg.clinicalgenome.org/redmine/projects/registry/genboree_registry/by_caid?caid=CA127784",
+                            "source": {
+                                "id": "ClinGen Allele Registry",
+                                "name": "ClinGen Allele Registry",
+                                "description": null,
+                                "url": "http://reg.clinicalgenome.org/",
+                                "release": "20220211"
+                            }
+                            }],
+                    "prediction_summary": [{   
+                                                "score":0.347  ,
+                                                "result": null,
+                                                "qualifier": "",
+                                                "analysis_method" : { 
+                                                                        "tool": "CADD",
+                                                                        "version":  "1.6",
+                                                                        "dataset": {
+                                                                                        "id": "CADD_GRCh38_1.6_whole_genome_SNVs.tsv.gz",
+                                                                                        "name": "CADD_GRCh38_1.6_whole_genome_SNVs.tsv.gz",
+                                                                                        "description": null,
+                                                                                        "url": null,
+                                                                                        "release": null   
+                                                                                    } 
+                                                                    }
+                                            }],
+                    "population_frequencies" : [{
+                                                    "population": {
+                                                                    "name": "1000GENOMES:phase_3:ALL",
+                                                                    "size": 2504,
+                                                                    "description": "All phase 3 individuals",
+                                                                    "type": {
+                                                                            "accession_id": "",
+                                                                            "value": "geographical",
+                                                                            "label": "geographical",
+                                                                            "definition": "",
+                                                                            "description": ""
+                                                                            },
+                                                                    "global": true,
+                                                                    "is_from_genotypes": true,
+                                                                    "display_group_name": "1000Genomes Phase 3"
+                                                                },
+                                                    "allele_count": 1477,
+                                                    "allele_number": 5008,
+                                                    "allele_frequency": 0.295,
+                                                    "dataset":
+                                                        {
+                                                        "version": "2.1",
+                                                        "release_date": "2021-01-23",
+                                                        "source": {}
+                                                        },
+                                                    "qc_filter": "PASS",
+                                                    "is_minor_allele": true,
+                                                    "is_hpmaf": true
+                                            }],
+                    "phenotype_assertions": [{
+                                                    
+                                                "feature": "NC_000001.1:230710048A:G",
+                                                "feature_type": "VariantAllele",
+                                                "phenotype": {
+                                                            "term": "Coronary Artery Disease"
+                                                            },
+                                                "evidence": [{
+                                                                "source": {
+                                                                                "id": "2",
+                                                                                "name": "NHGRI-EBI GWAS catalog",
+                                                                                "description": null,
+                                                                                "url": null,
+                                                                                "release": "2021-07-01"
+                                                                            },
+                                                                "citations": [],
+                                                                "attributes": [
+                                                                                    {
+                                                                                        "type": "beta_coefficient",
+                                                                                        "value": "0.036 unitdecrease"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "associated_gene",
+                                                                                        "value": "AGT"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "pvalue",
+                                                                                        "value": "2.00e-8"
+                                                                                    }
+                                                                            ],
+                                                                "assertion": {}
+                                                                }]
+                                            },
+
+                                            {
+                                            "feature": "NC_000001.1:.230710048A:G",
+                                            "feature_type": "VariantAllele",
+                                            "phenotype": {
+                                                            "term": "Preeclampsia"
+                                                        },
+                                            "evidence": [{
+                                                            "source": {
+                                                            "name": "ClinVar",
+                                                            "version": "2021-07-07"
+                                                            },
+                                                            "citations": [],
+                                                            "attributes": [
+                                                            {
+                                                                "type": "review status",
+                                                                "value": "expert panel"
+                                                            },
+                                                            {
+                                                                "type": "associated_gene",
+                                                                "value": "AGT"
+                                                            },
+                                                            {
+                                                                "type": "external identifier",
+                                                                "value": "MIM:106150"
+                                                            }
+                                                            ],
+                                                            "assertion": {
+                                                                "accession_id": "",
+                                                                "value": "risk_factor", 
+                                                                "label": "",
+                                                                "definition": "",
+                                                                "description": ""
+                                                            }
+                                                        }]                  
+                                            }]
+                }],
+    "citations": []
  }

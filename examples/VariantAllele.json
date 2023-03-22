@@ -167,14 +167,14 @@
               "alternative_names": [],
               "taxon_id": 511145
             },
-            "groups" : [...],
+            "groups" : [],
             "assemblies" : [{
               "id": "GRCh38.p13",
               "name": "GRCh38",
               "accession_id": "GCA_000001405.14",
               "accessioning_body": "EGA",
-              "organism": { ... },
-              "regions": [ ... ],
+              "organism": {},
+              "regions": [],
               "default": true,
               "tolid": null
             }]
@@ -191,49 +191,16 @@
         "phenotype": {
           "term": "Coronary Artery Disease"
         },
-        "evidence": [
-          {
-            "source": {
-              "id": "2",
-              "name": "NHGRI-EBI GWAS catalog",
-              "description": null,
-              "url": null,
-              "release": "2021-07-01"
-            },
-            "citations": [
-              {
-                "authors": ["", ""],
-                "year": 2007,
-                "pmid": {
-                   "id": "",
-                   "name": null,
-                   "description": null,
-                   "url": null,
-                   "release": null
-                 } ,
-                "pmcid": {
-                   "id": "",
-                   "name": null,
-                   "description": null,
-                   "url": null,
-                   "release": null
-                 },
-                "doi": {
-                  "id": "",
-                  "name": null,
-                  "description": null,
-                  "url": null,
-                  "release": null
-                },
-                "ucsc_id": {
-                  "id": "",
-                  "name": null,
-                  "description": null,
-                  "url": null,
-                  "release": null
-                }
-              }
-            ],
+    "evidence": [
+      {
+        "source": {
+          "id": "2",
+          "name": "NHGRI-EBI GWAS catalog",
+          "description": null,
+          "url": null,
+          "release": "2021-07-01"
+        },
+        "citations": [],
             "attributes": [
               {
                 "type": "beta_coefficient",
@@ -261,7 +228,7 @@
 
       {
         "feature": "NC_000001.1:.230710048A:G",
-        "feature_type": "Allele",
+        "feature_type": "VariantAllele",
         "phenotype": {
           "term": "Preeclampsia"
         },
@@ -271,108 +238,7 @@
               "name": "ClinVar",
               "version": "2021-07-07"
             },
-            "citations": [
-              {
-                "authors": ["", ""],
-                "year": "",
-                "pmid": {
-                  "id": "PMID:8518804"
-                },
-                "pmcid": {...},
-                "doi": {...},
-                "ucsc_id": {...}
-              },
-              {
-                "authors": ["", ""],
-                "year": "",
-                "pmid": {
-                  "id": "PMID:7649545"
-                },
-                "pmcid": {...},
-                "doi": {...},
-                "ucsc_id": {...}
-              },
-              {
-                "authors": ["", ""],
-                "year": "",
-                "pmid": {
-                  "id": "PMID:16059745"
-                },
-                "pmcid": {...},
-                "doi": {...},
-                "ucsc_id": {...}
-              },
-              {
-                "authors": ["", ""],
-                "year": "",
-                "pmid": {
-                  "id": "PMID:9259580"
-                },
-                "pmcid": {...},
-                "doi": {...},
-                "ucsc_id": {...}
-              },
-              {
-                "authors": ["", ""],
-                "year": "",
-                "pmid": {
-                  "id": "PMID:7883995"
-                },
-                "pmcid": {...},
-                "doi": {...},
-                "ucsc_id": {...}
-              },
-              {
-                "authors": ["", ""],
-                "year": "",
-                "pmid": {
-                  "id": "PMID:8348146"
-                },
-                "pmcid": {...},
-                "doi": {...},
-                "ucsc_id": {...}
-              },
-              {
-                "authors": ["", ""],
-                "year": "",
-                "pmid": {
-                  "id": "PMID:9831339"
-                },
-                "pmcid": {...},
-                "doi": {...},
-                "ucsc_id": {...}
-              },
-              {
-                "authors": ["", ""],
-                "year": "",
-                "pmid": {
-                  "id": "PMID:8513325"
-                },
-                "pmcid": {...},
-                "doi": {...},
-                "ucsc_id": {...}
-              },
-              {
-                "authors": ["", ""],
-                "year": "",
-                "pmid": {
-                  "id": "PMID:9421481"
-                },
-                "pmcid": {...},
-                "doi": {...},
-                "ucsc_id": {...}
-              },
-              {
-                "authors": ["", ""],
-                "year": "",
-                "pmid": {
-                  "id": "PMID:16059745"
-                },
-                "pmcid": {...},
-                "doi": {...},
-                "ucsc_id": {...}
-              }            
-            ],
+            "citations": [],
             "attributes": [
               {
                 "type": "review status",
