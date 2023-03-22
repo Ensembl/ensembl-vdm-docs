@@ -10,8 +10,7 @@ A group of samples which have been studied and are logical to consider together
 | type              | ValueSet        | Type of population e.g. based on geography or collection of individuals/samples
 | global            | boolean         | Is this a population that can be used to report global minor allele frequency
 | is_from_genotypes| boolean         | frequency from genotypes or from individuals/sample genotypes
-| display_group_name| string          | The name of the group of populations this population belongs to, serves as a table header
-on population genetics page
+| display_group_name| string          | The name of the group of populations this population belongs to, serves as a table header on population genetics page
 | super_population  | Population      | Super population if exists 
 | sub_population    | Population      | Sub population if exists
 
