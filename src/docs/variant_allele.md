@@ -11,7 +11,7 @@ It does not have a stable_id and version fields - like an intron
 | type               | string                     | This is always VariantAllele
 | allele_type        | OntologyTermMetadata| SO type eg. insertion, deletion
 | slice              | Slice                      | Slice describing the coordinates of the allele
-| population_frequencies| array of PopulationFrequency| Shows rate of occurrence in different populations. Can be empty
+| population_frequencies| array of PopulationAlleleFrequency| Shows rate of occurrence in different populations. Can be empty
 | phenotype_assertions| array of Phenotype Assertion| Links to disease where the precise allele is known. Can be empty
 | prediction_summary | array of PredictionResults | These are results at variant allele/loci level CADD
 | predicted _molecular_consequences| Array of PredictedMolecularConsequence| Shows predicted  effect on transcripts, regulatory features etc. Can be empty
