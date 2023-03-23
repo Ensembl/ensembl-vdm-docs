@@ -125,7 +125,6 @@
   },
   "population_frequencies": [
     {
-      "allele_id": 43581,
       "variant_allele": {},
       "population": {
         "name": "1000GENOMES:phase_3:ALL",
@@ -139,10 +138,8 @@
           "description": ""
         },
         "global": true,
-        "is_from_genotypes": 1,
-        "display_group_id": 1,
-        "display_group_name": "1000Genomes Phase 3",
-        "display_group_priority": 1.5
+        "is_from_genotypes": true,
+        "display_group_name": "1000Genomes Phase 3"
       },
       "allele_count": 1477,
       "allele_number": 5008,
@@ -154,8 +151,14 @@
           "release_date": "2021-01-23",
           "source": {},
           "populations": {
-            "super_population": [373507],
-            "sub_population": [373509, 373510, 373518, 373520, 373535]
+            "super_population": {},
+            "sub_population": [
+                                {"name": "1000GENOMES:phase_3:AFR"},
+                                {"name": "1000GENOMES:phase_3:AMR"},
+                                {"name": "1000GENOMES:phase_3:EAS"},
+                                {"name": "1000GENOMES:phase_3:EUR"},
+                                {"name": "1000GENOMES:phase_3:SAS"}
+                              ]
           },
           "organism": {
             "scientific_name": "Homo sapiens",
@@ -181,7 +184,8 @@
           }
         },
       "qc_filter": "PASS",
-      "is_minor_allele": true
+      "is_minor_allele": true,
+      "is_hpmaf": true
     }
   ],
   "phenotype_assertions": [
@@ -191,39 +195,39 @@
         "phenotype": {
           "term": "Coronary Artery Disease"
         },
-    "evidence": [
-      {
-        "source": {
-          "id": "2",
-          "name": "NHGRI-EBI GWAS catalog",
-          "description": null,
-          "url": null,
-          "release": "2021-07-01"
-        },
-        "citations": [],
-            "attributes": [
-              {
-                "type": "beta_coefficient",
-                "value": "0.036 unitdecrease"
-              },
-              {
-                "type": "associated_gene",
-                "value": "AGT"
-              },
-              {
-                "type": "pvalue",
-                "value": "2.00e-8"
-              }
-            ],
-            "assertion": {
-              "accession_id": "",
-              "value": "",
-              "label": "",
-              "definition": "",
-              "description": ""
-            }
-          }
-        ]
+         "evidence": [
+                    {
+                    "source": {
+                              "id": "2",
+                              "name": "NHGRI-EBI GWAS catalog",
+                              "description": null,
+                              "url": null,
+                              "release": "2021-07-01"
+                              },
+                    "citations": [],
+                    "attributes": [
+                      {
+                        "type": "beta_coefficient",
+                        "value": "0.036 unitdecrease"
+                      },
+                      {
+                        "type": "associated_gene",
+                        "value": "AGT"
+                      },
+                      {
+                        "type": "pvalue",
+                        "value": "2.00e-8"
+                      }
+                    ],
+                    "assertion": {
+                      "accession_id": "",
+                      "value": "",
+                      "label": "",
+                      "definition": "",
+                      "description": ""
+                      }
+                    }
+                    ]
       },
 
       {
@@ -233,34 +237,34 @@
           "term": "Preeclampsia"
         },
         "evidence": [
-          {
-            "source": {
-              "name": "ClinVar",
-              "version": "2021-07-07"
-            },
-            "citations": [],
-            "attributes": [
-              {
-                "type": "review status",
-                "value": "expert panel"
-              },
-              {
-                "type": "associated_gene",
-                "value": "AGT"
-              },
-              {
-                "type": "external identifier",
-                "value": "MIM:106150"
-              }
-            ],
-            "assertion": {
-              "accession_id": "",
-              "value": "risk_factor",
-              "label": "",
-              "definition": "",
-              "description": ""
-            }
-          }
+                    {
+                      "source": {
+                        "name": "ClinVar",
+                        "version": "2021-07-07"
+                      },
+                      "citations": [],
+                      "attributes": [
+                        {
+                          "type": "review status",
+                          "value": "expert panel"
+                        },
+                        {
+                          "type": "associated_gene",
+                          "value": "AGT"
+                        },
+                        {
+                          "type": "external identifier",
+                          "value": "MIM:106150"
+                        }
+                      ],
+                      "assertion": {
+                        "accession_id": "",
+                        "value": "risk_factor",
+                        "label": "",
+                        "definition": "",
+                        "description": ""
+                      }
+                    }
         ]
       }
   ],
