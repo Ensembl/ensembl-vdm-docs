@@ -313,8 +313,8 @@
                                                             }
                                                             ],
                                                             "assertion": {
-                                                                "accession_id": "evidence_assertion.risk_factor",
-                                                                "value": "pathogenic", 
+                                                                "accession_id": "evidence.assertion",
+                                                                "value": "risk factor", 
                                                                 "label": "",
                                                                 "definition": "High level assertion when the variant is pathogenic",
                                                                 "description": ""
