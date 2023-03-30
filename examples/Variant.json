@@ -245,7 +245,7 @@
                                                     "qc_filter": {
                                                                     "accession_id": "population_allele_frequency.qc_filter",
                                                                     "value": "PASS",
-                                                                    "label": "",
+                                                                    "label": "PASS",
                                                                     "definition": "Frequency dataset for which qc_filter is PASS",
                                                                     "description": ""
                                                                 },
@@ -314,8 +314,8 @@
                                                             ],
                                                             "assertion": {
                                                                 "accession_id": "evidence.assertion",
-                                                                "value": "risk factor", 
-                                                                "label": "",
+                                                                "value": "risk_factor", 
+                                                                "label": "risk factor",
                                                                 "definition": "Review status: no assertion criteria provided",
                                                                 "description": ""
                                                             }
