@@ -5,6 +5,7 @@ The result of a program like SIFT or GERP which can help interpret if a genomic 
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
 | score             | float           | Numeric output of prediction package
+| result            | string          | String output of prediction package
 | classification    | ValueSet        | Text description of result eg tolerated
 | analysis_method   | AnalysisMethod  | Tool, version and datasets used
 
