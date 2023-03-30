@@ -316,7 +316,7 @@
                                                                 "accession_id": "evidence.assertion",
                                                                 "value": "risk factor", 
                                                                 "label": "",
-                                                                "definition": "High level assertion when the variant is pathogenic",
+                                                                "definition": "Review status: no aassertion criteria provided",
                                                                 "description": ""
                                                             }
                                                         }]                  
