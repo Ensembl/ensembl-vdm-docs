@@ -1,7 +1,7 @@
 {
     "name": "rs699",
     "alternative_names": [],
-    "primary source":   {
+    "primary_source":   {
                             "id" : 1,
                             "name": "dbSNP",
                             "description": "NCBI db of human variants",
@@ -9,9 +9,10 @@
                             "release": 154
                         },
     "type": "Variant",
-    "prediction_summary": [
+    "prediction_results": [
                             {   "score": null ,
                                 "result":"G",
+                                "classification": {},
                                 "analysis_method" : {   
                                                         "tool": "AncestralAllele",
                                                         "version":  "108",
@@ -22,6 +23,7 @@
                             {   
                                 "score" : -2.88  ,
                                 "result": null,
+                                "classification": {},
                                 "analysis_method":  { 
                                                         "tool": "GERP",
                                                         "version":  "",
@@ -38,6 +40,7 @@
                             { 
                                 "score":  null,
                                 "result": "missense_variant" ,
+                                "classification": {},
                                 "analysis_method":  {  
                                                         "tool": "Ensembl VEP", 
                                                         "qualifier": "most severe  consequence",
@@ -162,13 +165,14 @@
                                 "release": "20220211"
                             }
                             }],
-                    "prediction_summary": [{   
+                    "prediction_results": [{   
                                                 "score":0.347  ,
                                                 "result": null,
-                                                "qualifier": "",
+                                                "classification": {},
                                                 "analysis_method" : { 
                                                                         "tool": "CADD",
                                                                         "version":  "1.6",
+                                                                        "qualifier": "",
                                                                         "dataset": {
                                                                                         "id": "CADD_GRCh38_1.6_whole_genome_SNVs.tsv.gz",
                                                                                         "name": "CADD_GRCh38_1.6_whole_genome_SNVs.tsv.gz",
@@ -184,15 +188,50 @@
                                                                     "size": 2504,
                                                                     "description": "All phase 3 individuals",
                                                                     "type": {
-                                                                            "accession_id": "",
-                                                                            "value": "geographical",
-                                                                            "label": "geographical",
-                                                                            "definition": "",
+                                                                            "accession_id": "population_type.1000GENOMES:phase_3",
+                                                                            "value": "ALL",
+                                                                            "label": "ALL",
+                                                                            "definition": "ALL populations in 1000 genomes",
                                                                             "description": ""
                                                                             },
                                                                     "global": true,
                                                                     "is_from_genotypes": true,
-                                                                    "display_group_name": "1000Genomes Phase 3"
+                                                                    "display_group_name": "1000Genomes Phase 3",
+                                                                    "sub_populations": [
+                                                                        {
+                                                                            "name": "1000GENOMES:phase_3:AFR",
+                                                                            "type": {
+                                                                                "accession_id": "population_type.1000GENOMES:phase_3",
+                                                                                "value": "AFR",
+                                                                                "label": "AFR",
+                                                                                "definition": "AFR population in 1000 genomes",
+                                                                                "description": ""
+                                                                            },
+                                                                            "sub_populations": [
+                                                                                {
+                                                                                    "name": "1000GENOMES:phase_3:ACB",
+                                                                                    "type": {
+                                                                                        "accession_id": "population_type.1000GENOMES:phase_3",
+                                                                                        "value": "ACB",
+                                                                                        "label": "ACB",
+                                                                                        "definition": "ACB population in 1000 genomes",
+                                                                                        "description": ""
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "1000GENOMES:phase_3:AMR",
+                                                                            "type": {
+                                                                                "accession_id": "population_type.1000GENOMES:phase_3",
+                                                                                "value": "AMR",
+                                                                                "label": "AMR",
+                                                                                "definition": "AMR population in 1000 genomes",
+                                                                                "description": ""
+                                                                            }
+                                                                        }
+
+                                                                    ]
                                                                 },
                                                     "allele_count": 1477,
                                                     "allele_number": 5008,
@@ -203,7 +242,13 @@
                                                         "release_date": "2021-01-23",
                                                         "source": {}
                                                         },
-                                                    "qc_filter": "PASS",
+                                                    "qc_filter": {
+                                                                    "accession_id": "population_allele_frequency.qc_filter",
+                                                                    "value": "PASS",
+                                                                    "label": "",
+                                                                    "definition": "Frequency dataset for which qc_filter is PASS",
+                                                                    "description": ""
+                                                                },
                                                     "is_minor_allele": true,
                                                     "is_hpmaf": true
                                             }],
@@ -268,10 +313,10 @@
                                                             }
                                                             ],
                                                             "assertion": {
-                                                                "accession_id": "",
-                                                                "value": "risk_factor", 
+                                                                "accession_id": "evidence_assertion.risk_factor",
+                                                                "value": "pathogenic", 
                                                                 "label": "",
-                                                                "definition": "",
+                                                                "definition": "High level assertion when the variant is pathogenic",
                                                                 "description": ""
                                                             }
                                                         }]                  
