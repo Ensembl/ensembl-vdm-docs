@@ -63,7 +63,7 @@
                                 "length": 1
                                 },
                                 "region": {
-                                "name": "NC_000001.1",
+                                "name": "1",
                                 "code": "chromosome",
                                 "topology": "linear",
                                 "so_term": "SO:0001217",
