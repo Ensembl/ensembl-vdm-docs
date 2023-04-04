@@ -2,11 +2,11 @@
     "name": "rs699",
     "alternative_names": [],
     "primary_source":   {
-                            "id" : 1,
+                            "id" : "1",
                             "name": "dbSNP",
                             "description": "NCBI db of human variants",
                             "url":  "https://www.ncbi.nlm.nih.gov/snp/",
-                            "release": 154
+                            "release": "154"
                         },
     "type": "Variant",
     "prediction_results": [
@@ -17,7 +17,7 @@
                                                         "tool": "AncestralAllele",
                                                         "version":  "108",
                                                         "qualifier": "",
-                                                        "dataset": ""
+                                                        "reference_data": {}
                                                     }
                             },
                             {   
@@ -28,7 +28,7 @@
                                                         "tool": "GERP",
                                                         "version":  "",
                                                         "qualifier": "",
-                                                        "dataset":  {
+                                                        "reference_data":  {
                                                                         "id": "90_mamals.gerp_conservation_score",
                                                                         "name": "90_mamals.gerp_conservation_score",
                                                                         "description": null,
@@ -45,7 +45,7 @@
                                                         "tool": "Ensembl VEP", 
                                                         "qualifier": "most severe  consequence",
                                                         "version":  "108",
-                                                        "dataset": {
+                                                        "reference_data": {
                                                                         "id": "Ensembl 108",
                                                                         "name": "Ensembl 108",
                                                                         "description": null,
@@ -173,7 +173,7 @@
                                                                         "tool": "CADD",
                                                                         "version":  "1.6",
                                                                         "qualifier": "",
-                                                                        "dataset": {
+                                                                        "reference_data": {
                                                                                         "id": "CADD_GRCh38_1.6_whole_genome_SNVs.tsv.gz",
                                                                                         "name": "CADD_GRCh38_1.6_whole_genome_SNVs.tsv.gz",
                                                                                         "description": null,
