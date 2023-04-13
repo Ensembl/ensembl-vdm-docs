@@ -139,7 +139,7 @@
                             "type": "DIRECT",
                             "description": "A reference made by external source to a dbSNP rsid"
                             },
-                            "url": "",
+                            "url": null,
                             "source": {
                             "id": "UniProt",
                             "name": "UniProt",
