@@ -9,16 +9,12 @@
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
 | version           | string          | 
-| release_date      | string          | YYYY-MM-DD
+| release_date      | string or null        | YYYY-MM-DD
 | source            | ExternalDB      | source of data set
 | populations       | array of Population| Populations that make up this data set
 | organism           | Organism         | 
 
-## Changelog
-* Removed datafile_id
-* Changed species to organism
-* Removed chromosomes
-* Removed assembly
+
 
 
 
