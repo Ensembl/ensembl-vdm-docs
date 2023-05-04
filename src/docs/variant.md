@@ -10,6 +10,7 @@ A variant is not a feature as it does not have a precise single location but is 
 |alternative_names         |array of External Reference or []        | Alternative names + source info
 | primary_source     |ExternalDB       | Resource the initial record came from and where the name is assigned
 | type|string |This is a Variant 
+| slice              | Slice                      | Slice describing the max coordinates of all the alleles for the variant
 | prediction_results | array of PredictionResults or [] | These are results at variant/loci level GERP, AA
 |alleles |array of VariantAllele |List of VariantAlleles
 | citations| array of Publications or [] |List of Publications
