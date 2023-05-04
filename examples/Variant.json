@@ -76,6 +76,7 @@
                             },
                     "allele_sequence": "G",
                     "reference_sequence": "A",
+                    "type": "VariantAllele",
                     "alternative_names": [
                         {
                             "accession_id": "VCV000018068",
@@ -233,9 +234,9 @@
 
                                                                     ]
                                                                 },
-                                                    "allele_count": 1477,
+                                                    "allele_count": 3531,
                                                     "allele_number": 5008,
-                                                    "allele_frequency": 0.295,
+                                                    "allele_frequency": 0.705 ,
                                                     "dataset":
                                                         {
                                                         "version": "2.1",
@@ -249,8 +250,8 @@
                                                                     "definition": "Frequency dataset for which qc_filter is PASS",
                                                                     "description": ""
                                                                 },
-                                                    "is_minor_allele": true,
-                                                    "is_hpmaf": true
+                                                    "is_minor_allele": false,
+                                                    "is_hpmaf": false
                                             }],
                     "phenotype_assertions": [{
                                                     
@@ -321,6 +322,106 @@
                                                             }
                                                         }]                  
                                             }]
-                }],
+                },
+                {   "name": "NC_000001.1:230710048:A:A",
+                    "slice": {
+                                "location": {
+                                "start": 3230710048,
+                                "end": 230710048,
+                                "length": 1
+                                },
+                                "region": {
+                                "name": "1",
+                                "code": "chromosome",
+                                "topology": "linear",
+                                "so_term": "SO:0001217",
+                                "length": 1
+                                },
+                                "strand": {
+                                "code": "forward",
+                                "value": 1
+                                }
+                            },
+                    "allele_sequence": "A",
+                    "reference_sequence": "A",
+                    "type": "VariantAllele",
+                    "alternative_names": [],
+                    "prediction_results": [],
+                    "population_frequencies" : [{
+                                                "population": {
+                                                                "name": "1000GENOMES:phase_3:ALL",
+                                                                "size": 2504,
+                                                                "description": "All phase 3 individuals",
+                                                                "type": {
+                                                                        "accession_id": "population_type.1000GENOMES:phase_3",
+                                                                        "value": "ALL",
+                                                                        "label": "ALL",
+                                                                        "definition": "ALL populations in 1000 genomes",
+                                                                        "description": ""
+                                                                        },
+                                                                "is_global": true,
+                                                                "is_from_genotypes": true,
+                                                                "display_group_name": "1000Genomes Phase 3",
+                                                                "sub_populations": [
+                                                                    {
+                                                                        "name": "1000GENOMES:phase_3:AFR",
+                                                                        "type": {
+                                                                            "accession_id": "population_type.1000GENOMES:phase_3",
+                                                                            "value": "AFR",
+                                                                            "label": "AFR",
+                                                                            "definition": "AFR population in 1000 genomes",
+                                                                            "description": ""
+                                                                        },
+                                                                        "sub_populations": [
+                                                                            {
+                                                                                "name": "1000GENOMES:phase_3:ACB",
+                                                                                "type": {
+                                                                                    "accession_id": "population_type.1000GENOMES:phase_3",
+                                                                                    "value": "ACB",
+                                                                                    "label": "ACB",
+                                                                                    "definition": "ACB population in 1000 genomes",
+                                                                                    "description": ""
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "1000GENOMES:phase_3:AMR",
+                                                                        "type": {
+                                                                            "accession_id": "population_type.1000GENOMES:phase_3",
+                                                                            "value": "AMR",
+                                                                            "label": "AMR",
+                                                                            "definition": "AMR population in 1000 genomes",
+                                                                            "description": ""
+                                                                        }
+                                                                    }
+
+                                                                ]
+                                                            },
+                                                "allele_count": 1477,
+                                                "allele_number": 5008,
+                                                "allele_frequency": 0.295,
+                                                "dataset":
+                                                    {
+                                                    "version": "2.1",
+                                                    "release_date": "2021-01-23",
+                                                    "source": {}
+                                                    },
+                                                "qc_filter": {
+                                                                "accession_id": "population_allele_frequency.qc_filter",
+                                                                "value": "PASS",
+                                                                "label": "PASS",
+                                                                "definition": "Frequency dataset for which qc_filter is PASS",
+                                                                "description": ""
+                                                            },
+                                                "is_minor_allele": true,
+                                                "is_hpmaf": true
+                                        }],
+                    "phenotype_assertions": []
+                }            
+            
+            
+            
+            ],
     "citations": []
  }
