@@ -291,7 +291,7 @@
                                                             },
                                                 "evidence": [{
                                                                 "source": {
-                                                                                "id": "2",
+                                                                                "id": "NHGRI-EBI_GWAS_catalog",
                                                                                 "name": "NHGRI-EBI GWAS catalog",
                                                                                 "description": null,
                                                                                 "url": null,
