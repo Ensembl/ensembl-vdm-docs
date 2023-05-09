@@ -95,6 +95,17 @@
                     "allele_sequence": "G",
                     "reference_sequence": "A",
                     "type": "VariantAllele",
+                    "allele_type": {
+                                    "accession_id": "SO:0001483",
+                                    "value": "SNV",
+                                    "url": "www.sequenceontology.org/browser/current_release/term/SO:0001483",
+                                    "source": {
+                                    "id": "...",
+                                    "name": "Sequence Ontology",
+                                    "url": "www.sequenceontology.org",
+                                    "description": "The Sequence Ontology..."
+                                    }
+                    },
                     "alternative_names": [
                         {
                             "accession_id": "VCV000018068",
@@ -363,6 +374,17 @@
                     "allele_sequence": "A",
                     "reference_sequence": "A",
                     "type": "VariantAllele",
+                    "allele_type": {
+                                    "accession_id": "SO:0001411",
+                                    "value": "biological_region ",
+                                    "url": "www.sequenceontology.org/browser/current_release/term/SO:0001411",
+                                    "source": {
+                                    "id": "...",
+                                    "name": "Sequence Ontology",
+                                    "url": "www.sequenceontology.org",
+                                    "description": "The Sequence Ontology..."
+                                    }
+                    },
                     "alternative_names": [],
                     "prediction_results": [],
                     "population_frequencies" : [{
