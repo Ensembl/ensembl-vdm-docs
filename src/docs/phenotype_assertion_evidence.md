@@ -1,4 +1,4 @@
-# Evidence ( of Disease/Phenotype assertion)
+# Phenotype Assertion Evidence ( of Disease/Phenotype assertion)
 
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
