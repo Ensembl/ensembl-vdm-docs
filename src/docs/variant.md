@@ -9,7 +9,8 @@ A variant is not a feature as it does not have a precise single location but is 
 |name         | string          | Name of the variant from a known resource such as dbSNP, EVA, COSMIC
 |alternative_names         |array of External Reference or []        | Alternative names + source info
 | primary_source     |ExternalDB       | Resource the initial record came from and where the name is assigned
-| type|string |This is a Variant 
+| type               |string           |This is a Variant 
+| allele_type        | OntologyTermMetadata| SO type aggregation from alleles 
 | slice              | Slice                      | Slice describing the max coordinates of all the alleles for the variant
 | prediction_results | array of PredictionResults or [] | These are results at variant/loci level GERP, AA
 |alleles |array of VariantAllele |List of VariantAlleles
