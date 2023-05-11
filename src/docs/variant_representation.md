@@ -1,4 +1,4 @@
-# Label
+# Variant Representation
 
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
