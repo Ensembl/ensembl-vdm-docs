@@ -4,7 +4,6 @@ The frequency of an allele in a population
 
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
-| variant_allele    | VariantAllele   | see [VariantAllele](./variant_allele.md)
 | population        | Population      | see [Population](./population.md)
 | allele_count      | integer or null | Number of individuals/samples in the population where variant allele is found
 | allele_number     | integer or null | Total number of alleles in called genotypes
