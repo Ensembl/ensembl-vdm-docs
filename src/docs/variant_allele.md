@@ -15,7 +15,7 @@ It does not have a stable_id and version fields - like an intron
 | phenotype_assertions| array of Phenotype Assertion or []| Links to disease where the precise allele is known. Can be empty
 | prediction_results | array of PredictionResults or []| These are results at variant allele/loci level CADD
 | predicted _molecular_consequences| Array of PredictedMolecularConsequence or []| Shows predicted  effect on transcripts, regulatory features etc. Can be empty
-| experimental_consequences| Array of ExperimentalConsequences or []| Placeholder for AVE (Atlas of Variant Effects) etc. Can be empty
+
 
 
 
