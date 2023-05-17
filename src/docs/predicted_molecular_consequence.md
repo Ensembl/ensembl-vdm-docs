@@ -10,7 +10,7 @@ A set of information enabling interpretation of likely variant impact on genomic
 | consequences      | array of OntologyTermMetadata           | SO terms for predicted impact ( eg missense variants)
 | variant_representation            | array of VariantRepresentation or [ ]  | Nomenclature values and source
 | prediction_results | array of PredictionResult or [ ] | Scores from programs like SIFT which calculate transcript-specific deleteriousness scores
-| relative_locations | array of VariantRelativeLocation or [ ] | 
+| relative_locations | array of VariantRelativeLocation  | 
 
 
 
