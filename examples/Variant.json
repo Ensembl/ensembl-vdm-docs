@@ -31,7 +31,7 @@
                     }
     },
     "primary_source":   {
-                            "id" : "1",
+                            "id" : "dbSNP",
                             "name": "dbSNP",
                             "description": "NCBI db of human variants",
                             "url":  "https://www.ncbi.nlm.nih.gov/snp/",
@@ -46,7 +46,7 @@
                                                         "tool": "AncestralAllele",
                                                         "version":  "108",
                                                         "qualifier": "",
-                                                        "reference_data": [{}]
+                                                        "reference_data": []
                                                     }
                             },
                             {   
