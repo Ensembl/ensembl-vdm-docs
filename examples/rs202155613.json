@@ -1,0 +1,157 @@
+{   
+    "name": "rs202155613",
+    "alternative_names": [],
+    "slice": {
+            "location": {
+            "start": 32379902,
+            "end": 32379902,
+            "length": 1
+            },
+            "region": {
+                "name": "13",
+                "code": "chromosome",
+                "topology": "linear",
+                "so_term": "SO:0001217",
+                "length": 1
+                },
+            "strand": {
+            "code": "forward",
+            "value": 1
+            }
+    },
+    "allele_type": {
+                    "accession_id": "SO:0001483",
+                    "value": "SNV",
+                    "url": "www.sequenceontology.org/browser/current_release/term/SO:0001483",
+                    "source": {
+                    "id": "...",
+                    "name": "Sequence Ontology",
+                    "url": "www.sequenceontology.org",
+                    "description": "The Sequence Ontology..."
+                    }
+    },
+    "primary_source":   {
+                        "id" : "dbSNP",
+                        "name": "dbSNP",
+                        "description": "NCBI db of human variants",
+                        "url":  "https://www.ncbi.nlm.nih.gov/snp/",
+                        "release": "154"
+                    },
+    "type": "Variant",
+    "prediction_results": [
+                            {   "score": null ,
+                                "result":"C",
+                                "classification": {},
+                                "analysis_method" : {   
+                                                        "tool": "AncestralAllele",
+                                                        "version":  "109",
+                                                        "qualifier": "",
+                                                        "reference_data": []
+                                                    }
+                            },
+                            {   
+                                "score" : -0.25  ,
+                                "result": null,
+                                "classification": {},
+                                "analysis_method":  { 
+                                                        "tool": "GERP",
+                                                        "version":  "",
+                                                        "qualifier": "",
+                                                        "reference_data":  [{
+                                                                        "id": "90_mamals.gerp_conservation_score",
+                                                                        "name": "90_mamals.gerp_conservation_score",
+                                                                        "description": null,
+                                                                        "url": null,
+                                                                        "release": null
+                                                        }]
+                                                    }
+                            },
+                            { 
+                                "score":  null,
+                                "result": "stop gained" ,
+                                "classification": {},
+                                "analysis_method":  {  
+                                                        "tool": "Ensembl VEP", 
+                                                        "qualifier": "most severe  consequence",
+                                                        "version":  "109",
+                                                        "reference_data": [{
+                                                                        "id": "Ensembl 109",
+                                                                        "name": "Ensembl 109",
+                                                                        "description": null,
+                                                                        "url": null,
+                                                                        "release": null   
+                                                        }]
+                                                    }
+                }],
+    "alleles":  [
+        {
+        "name": "NC_000013.11:32379901:C:A",
+        "slice": {
+            "location": {
+            "start": 32379902,
+            "end": 32379902,
+            "length": 1
+            },
+            "region": {
+                "name": "13",
+                "code": "chromosome",
+                "topology": "linear",
+                "so_term": "SO:0001217",
+                "length": 1
+                },
+            "strand": {
+            "code": "forward",
+            "value": 1
+            }
+        },
+        "allele_sequence": "C",
+        "reference_sequence": "A",
+        "type": "VariantAllele",
+        "allele_type": {
+            "accession_id": "SO:0001483",
+            "value": "SNV",
+            "url": "www.sequenceontology.org/browser/current_release/term/SO:0001483",
+            "source": {
+            "id": "...",
+            "name": "Sequence Ontology",
+            "url": "www.sequenceontology.org",
+            "description": "The Sequence Ontology..."
+            }
+        },
+        "alternative_names": [
+            {
+                "accession_id": "CA025982",
+                "name": "CA025982",
+                "description": null,
+                "assignment_method": {
+                    "type": "DIRECT",
+                    "description": "A reference made by external source to a dbSNP rsid"
+                },
+                "url": "http://reg.clinicalgenome.org/redmine/projects/registry/genboree_registry/by_caid?caid=CA025982",
+                "source": {
+                    "id": "ClinGen Allele Registry",
+                    "name": "ClinGen Allele Registry",
+                    "description": null,
+                    "url": "http://reg.clinicalgenome.org/",
+                    "release": "20220211"
+                }
+            }
+        ],
+        "prediction_results": [],
+        "population_frequencies" : [{
+            "population": {
+                            "name": "1000GENOMES:phase_3:ALL"
+            }
+        }]   
+        },
+        {
+        "name": "NC_000013.11:32379901:C:G"
+        },
+        {
+        "name": "NC_000013.11:32379901:C:T"
+        },
+        {
+        "name": "NC_000013.11:32379901:C:C"
+        }
+    ]
+}

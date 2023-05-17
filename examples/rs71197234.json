@@ -1,0 +1,251 @@
+{   
+    "name": "rs71197234",
+    "alternative_names": [],
+    "slice": {
+            "location": {
+            "start": 57932509 ,
+            "end": 57932522,
+            "length": 13
+            },
+            "region": {
+                "name": "13",
+                "code": "chromosome",
+                "topology": "linear",
+                "so_term": "SO:0001217",
+                "length": 1
+                },
+            "strand": {
+            "code": "forward",
+            "value": 1
+            }
+    },
+    "allele_type": {
+                    "accession_id": "SO:1000032 ",
+                    "value": "delins",
+                    "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:1000032",
+                    "source": {
+                        "id": "...",
+                        "name": "Sequence Ontology",
+                        "url": "www.sequenceontology.org",
+                        "description": "The Sequence Ontology..."
+                    }
+    },
+    "primary_source":   {
+                            "id" : "dbSNP",
+                            "name": "dbSNP",
+                            "description": "NCBI db of human variants",
+                            "url":  "https://www.ncbi.nlm.nih.gov/snp/",
+                            "release": "154"
+                        },
+    "type": "Variant",
+    "prediction_results": [
+                            {   "score": null ,
+                                "result":"ATATATATATATAT",
+                                "classification": {},
+                                "analysis_method" : {   
+                                                        "tool": "AncestralAllele",
+                                                        "version":  "109",
+                                                        "qualifier": "",
+                                                        "reference_data": []
+                                                    }
+                            },
+                            {   
+                                "score" : -0.25  ,
+                                "result": null,
+                                "classification": {},
+                                "analysis_method":  { 
+                                                        "tool": "GERP",
+                                                        "version":  "",
+                                                        "qualifier": "",
+                                                        "reference_data":  [{
+                                                                        "id": "90_mamals.gerp_conservation_score",
+                                                                        "name": "90_mamals.gerp_conservation_score",
+                                                                        "description": null,
+                                                                        "url": null,
+                                                                        "release": null
+                                                        }]
+                                                    }
+                            },
+                            { 
+                                "score":  null,
+                                "result": "intergenic variant" ,
+                                "classification": {},
+                                "analysis_method":  {  
+                                                        "tool": "Ensembl VEP", 
+                                                        "qualifier": "most severe  consequence",
+                                                        "version":  "109",
+                                                        "reference_data": [{
+                                                                        "id": "Ensembl 109",
+                                                                        "name": "Ensembl 109",
+                                                                        "description": null,
+                                                                        "url": null,
+                                                                        "release": null   
+                                                        }]
+                                                    }
+                }],
+    "alleles":  [
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATATATATATATATACACATATATATATATAT",
+        "slice": {
+            "location": {
+            "start": 57404657,
+            "end": 57404658,
+            "length": 1
+            },
+            "region": {
+            "name": "1",
+            "code": "chromosome",
+            "topology": "linear",
+            "so_term": "SO:0001217",
+            "length": 1
+            },
+            "strand": {
+            "code": "forward",
+            "value": 1
+            }
+        },
+        "allele_sequence": "ATATATATATATAT",
+        "reference_sequence": "ATATATATATATATATATATATATATACACATATATATATATAT",
+        "type": "VariantAllele",
+        "allele_type": {
+            "accession_id": "SO:1000032 ",
+            "value": "delins",
+            "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:1000032",
+            "source": {
+                "id": "...",
+                "name": "Sequence Ontology",
+                "url": "www.sequenceontology.org",
+                "description": "The Sequence Ontology..."
+            }
+            },
+        "alternative_names": [
+            {
+                "accession_id": "CA699412421",
+                "name": "CA699412421",
+                "description": null,
+                "assignment_method": {
+                    "type": "DIRECT",
+                    "description": "A reference made by external source to a dbSNP rsid"
+                },
+                "url": "http://reg.clinicalgenome.org/redmine/projects/registry/genboree_registry/by_caid?caid=CA699412421",
+                "source": {
+                    "id": "ClinGen Allele Registry",
+                    "name": "ClinGen Allele Registry",
+                    "description": null,
+                    "url": "http://reg.clinicalgenome.org/",
+                    "release": "20220211"
+                }
+            }
+        ],
+        "prediction_results": [],
+        "population_frequencies" : [{
+            "population": {
+                            "name": "SAMN10492705",
+                            "size": 11636,
+                            "description": "Total",
+                            "is_global": true,
+                            "is_from_genotypes": true,
+                            "display_group_name": "NCBI ALFA",
+                            "sub_populations": []       
+                        },
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0 ,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {
+                            "accession_id": "population_allele_frequency.qc_filter.pass",
+                            "value": "pass",
+                            "label": "PASS",
+                            "definition": "Frequency dataset for which qc_filter is PASS",
+                            "description": ""
+                        },
+            "is_minor_allele": false,
+            "is_hpmaf": false
+        },
+        {
+            "population": {
+                            "name": "SAMN10492695",
+                            "description": "NCBI ALFA (Allele Frequency Aggregator) European",
+                        }
+        },
+        {
+            "population": {
+                            "name": "SAMN10492696",
+                            "description": "NCBI ALFA (Allele Frequency Aggregator) African Others",
+                        }
+        },
+        {
+            "population": {
+                            "name": "SAMN10492697",
+                            "description": "NCBI ALFA (Allele Frequency Aggregator) East Asian",
+                        }
+        },
+        {
+            "population": {
+                            "name": "SAMN10492698",
+                            "description": "NCBI ALFA (Allele Frequency Aggregator) African American",
+                        }
+        },
+        {
+            "population": {
+                            "name": "SAMN10492699",
+                            "description": "NCBI ALFA (Allele Frequency Aggregator) Latin American 1",
+                        }
+        },
+        {
+            "population": {
+                            "name": "SAMN10492700",
+                            "description": "NCBI ALFA (Allele Frequency Aggregator) Latin American 2",
+                        }
+        }
+
+    ],
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATATACACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATATATATATATACACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATATATATATATATATACACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATATACATATATATACACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATATATACACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATACACACACACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATATATATATATATACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATATACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATATATATACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATACACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATATATACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATATACATATATATATATAT"
+        },
+        {
+        "name": "NC_000013.11:57932508:ATATATATATATAT:ATATATATATATAT"
+        }
+
+    ]
+    
+}
