@@ -156,79 +156,10 @@
         }],
         "population_frequencies" : [
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ALL",
-                            "size": 2504,
-                            "description": "All phase 3 individuals",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:AFR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:AMR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:EAS"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:EUR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:SAS"
-                                }
-                            ]
-                },
-                "allele_count": null,
-                "allele_number": null,
-                "allele_frequency": null ,
-                "dataset":
-                    {
-                    "version": "2.1",
-                    "release_date": "2021-01-23",
-                    "source": {}
-                    },
-                "qc_filter": {},
-                "is_minor_allele": false,
-                "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:AFR",
-                            "size": 661,
-                            "description": "African",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:ACB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ASW"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ESN"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GWD"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:LWK"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:MSL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:YRI"
-                                }
-                        ]
-            },
+            "population":  "1000GENOMES:phase_3:ALL",              
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -240,31 +171,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:AMR",
-                            "size": 347,
-                            "description": "American",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CLM"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:MXL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PER"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PUR"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:AFR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -276,31 +186,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:EAS",
-                            "size": 504,
-                            "description": "East Asian",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CDX"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:CHB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:JPT"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:KHV"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:AMR",                   
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -312,34 +201,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:EUR",
-                            "size": 503,
-                            "description": "European",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CEU"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:FIN"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GBR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:IBS"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:TSI"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:EAS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -351,34 +216,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:SAS",
-                            "size": 489,
-                            "description": "South Asian",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:BEB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GIH"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ITU"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PJL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:STU"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:EUR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -390,18 +231,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ACB",
-                            "size": 96,
-                            "description": "African Caribbean in Barbados",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:SAS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -413,18 +246,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ASW",
-                            "size": 61,
-                            "description": "African Ancestry in Southwest US",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ACB",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -436,18 +261,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ESN",
-                            "size": 99,
-                            "description": "Esan in Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ASW",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -459,18 +276,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GWD",
-                            "size": 113,
-                            "description": "Gambian in Western Division, The Gambia",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ESN",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -482,18 +291,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:LWK",
-                            "size": 99,
-                            "description": "Luhya in Webuye, Kenya",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:GWD",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -505,18 +306,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:MSL",
-                            "size": 85,
-                            "description": "Mende in Sierra Leone",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:LWK",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -528,18 +321,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CLM",
-                            "size": 94,
-                            "description": "Yoruba in Ibadan, Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:MSL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -551,18 +336,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:YRI",
-                            "size": 108,
-                            "description": "Yoruba in Ibadan, Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CLM",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -574,18 +351,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CLM",
-                            "size": 94,
-                            "description": "Colombian in Medellin, Colombia",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:YRI",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -597,18 +366,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:MXL",
-                            "size": 64,
-                            "description": "Mexican Ancestry in Los Angeles, California",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CLM",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -620,18 +381,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PEL",
-                            "size": 85,
-                            "description": "Peruvian in Lima, Peru",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:MXL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -643,18 +396,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PUR",
-                            "size": 104,
-                            "description": "Puerto Rican in Puerto Rico",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:PEL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -666,18 +411,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CDX",
-                            "size": 93,
-                            "description": "Chinese Dai in Xishuangbanna, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:PUR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -689,18 +426,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CHB",
-                            "size": 102,
-                            "description": "Han Chinese in Bejing, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CDX",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -712,18 +441,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CHS",
-                            "size": 105,
-                            "description": "Southern Han Chinese, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CHB",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -735,18 +456,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:JPT",
-                            "size": 104,
-                            "description": "Japanese in Tokyo, Japan",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CHS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -758,18 +471,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:KHV",
-                            "size": 99,
-                            "description": "Kinh in Ho Chi Minh City, Vietnam",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:JPT",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -781,18 +486,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CEU",
-                            "size": 99,
-                            "description": "Utah residents with Northern and Western European ancestry",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:KHV",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -804,18 +501,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:FIN",
-                            "size": 99,
-                            "description": "Finnish in Finland",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CEU",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -827,18 +516,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GBR",
-                            "size": 91,
-                            "description": "British in England and Scotland",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:FIN",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -850,18 +531,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:IBS",
-                            "size": 107,
-                            "description": "Iberian populations in Spain",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:GBR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -873,18 +546,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:TSI",
-                            "size": 107,
-                            "description": "Toscani in Italy",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:IBS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -896,18 +561,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:BEB",
-                            "size": 86,
-                            "description": "Bengali in Bangladesh",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:TSI",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -919,18 +576,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GIH",
-                            "size": 103,
-                            "description": "Gujarati Indian in Houston, TX",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:BEB",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -942,18 +591,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ITU",
-                            "size": 102,
-                            "description": "Indian Telugu in the UK",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:GIH",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -965,18 +606,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PJL",
-                            "size": 96,
-                            "description": "Punjabi in Lahore, Pakistan",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ITU",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -988,18 +621,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:STU",
-                            "size": 102,
-                            "description": "Sri Lankan Tamil in the UK",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:PJL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -1011,44 +636,25 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:ALL",
-                            "size": 248894,
-                            "description": "All gnomAD exomes individuals",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": [
-                                {
-                                "name": "gnomADe:afr"
-                                },
-                                {
-                                "name": "gnomADg:ami"
-                                },
-                                {
-                                "name": "gnomADg:amr"
-                                },
-                                {
-                                "name": "gnomADg:asj"   
-                                },
-                                {
-                                "name": "gnomADg:mid"
-                                },
-                                {
-                                "name": "gnomADg:nfe"
-                                },
-                                {
-                                "name": "gnomADg:oth"
-                                },
-                                {
-                                "name": "gnomADg:sas"
-                                }
-                                
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:STU",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": " gnomADe:ALL",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -1060,18 +666,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:afr",
-                            "size": 16104,
-                            "description": "African/African American",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:afr",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -1083,18 +681,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:amr",
-                            "size": 34402,
-                            "description": "Latino",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:amr",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -1106,18 +696,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:asj",
-                            "size": 10010,
-                            "description": "Ashkenazi Jewish",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:asj",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -1129,18 +711,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:eas",
-                            "size": 18182,
-                            "description": "East Asian",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:eas",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -1152,18 +726,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:fin",
-                            "size": 21578,
-                            "description": "Finnish",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:fin",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -1175,18 +741,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:nfe",
-                            "size": 112036,
-                            "description": "Non-finnish European",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:nfe",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -1198,18 +756,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:oth",
-                            "size": 6066,
-                            "description": "Other",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:oth",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -1221,18 +771,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:sas",
-                            "size": 30516,
-                            "description": "South Asian",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:sas",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -1242,17 +784,7 @@
             "qc_filter": {},
             "is_minor_allele": false,
             "is_hpmaf": false
-            },
-            
-
-
-                            
-                        
-        
-
-
-
-            
+            }  
         ],
         "phenotype_assertions": [{   
         }]
@@ -1329,151 +861,10 @@
         }],
         "population_frequencies" : [
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ALL",
-                            "size": 2504,
-                            "description": "All phase 3 individuals",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:AFR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:AMR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:EAS"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:EUR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:SAS"
-                                }
-                            ]
-                },
-                "allele_count": null,
-                "allele_number": null,
-                "allele_frequency": 0.0001996805111 ,
-                "dataset":
-                    {
-                    "version": "2.1",
-                    "release_date": "2021-01-23",
-                    "source": {}
-                    },
-                "qc_filter": {},
-                "is_minor_allele": true,
-                "is_hpmaf": true
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:AFR",
-                            "size": 661,
-                            "description": "African",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:ACB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ASW"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ESN"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GWD"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:LWK"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:MSL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:YRI"
-                                }
-                        ]
-            },
+            "population":  "1000GENOMES:phase_3:ALL",              
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:AMR",
-                            "size": 347,
-                            "description": "American",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CLM"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:MXL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PER"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PUR"
-                                }
-                            ]
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:EAS",
-                            "size": 504,
-                            "description": "East Asian",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CDX"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:CHB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:JPT"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:KHV"
-                                }
-                            ]
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": 0.001 ,
+            "allele_frequency": 0.000199680511182109,
             "dataset":
                 {
                 "version": "2.1",
@@ -1485,34 +876,10 @@
             "is_hpmaf": true
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:EUR",
-                            "size": 503,
-                            "description": "European",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CEU"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:FIN"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GBR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:IBS"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:TSI"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:AFR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -1524,34 +891,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:SAS",
-                            "size": 489,
-                            "description": "South Asian",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:BEB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GIH"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ITU"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PJL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:STU"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:AMR",                   
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -1563,317 +906,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ACB",
-                            "size": 96,
-                            "description": "African Caribbean in Barbados",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:EAS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ASW",
-                            "size": 61,
-                            "description": "African Ancestry in Southwest US",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ESN",
-                            "size": 99,
-                            "description": "Esan in Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GWD",
-                            "size": 113,
-                            "description": "Gambian in Western Division, The Gambia",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:LWK",
-                            "size": 99,
-                            "description": "Luhya in Webuye, Kenya",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:MSL",
-                            "size": 85,
-                            "description": "Mende in Sierra Leone",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CLM",
-                            "size": 94,
-                            "description": "Yoruba in Ibadan, Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:YRI",
-                            "size": 108,
-                            "description": "Yoruba in Ibadan, Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CLM",
-                            "size": 94,
-                            "description": "Colombian in Medellin, Colombia",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:MXL",
-                            "size": 64,
-                            "description": "Mexican Ancestry in Los Angeles, California",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PEL",
-                            "size": 85,
-                            "description": "Peruvian in Lima, Peru",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PUR",
-                            "size": 104,
-                            "description": "Puerto Rican in Puerto Rico",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CDX",
-                            "size": 93,
-                            "description": "Chinese Dai in Xishuangbanna, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": null ,
-            "dataset":
-                {
-                "version": "2.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": false,
-            "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CHB",
-                            "size": 102,
-                            "description": "Han Chinese in Bejing, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": 0.005 ,
+            "allele_frequency": 0.001,
             "dataset":
                 {
                 "version": "2.1",
@@ -1885,18 +921,10 @@
             "is_hpmaf": true
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CHS",
-                            "size": 105,
-                            "description": "Southern Han Chinese, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:EUR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -1908,18 +936,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:JPT",
-                            "size": 104,
-                            "description": "Japanese in Tokyo, Japan",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:SAS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -1931,18 +951,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:KHV",
-                            "size": 99,
-                            "description": "Kinh in Ho Chi Minh City, Vietnam",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ACB",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -1954,18 +966,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CEU",
-                            "size": 99,
-                            "description": "Utah residents with Northern and Western European ancestry",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ASW",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -1977,18 +981,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:FIN",
-                            "size": 99,
-                            "description": "Finnish in Finland",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ESN",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2000,18 +996,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GBR",
-                            "size": 91,
-                            "description": "British in England and Scotland",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:GWD",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2023,18 +1011,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:IBS",
-                            "size": 107,
-                            "description": "Iberian populations in Spain",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:LWK",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2046,18 +1026,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:TSI",
-                            "size": 107,
-                            "description": "Toscani in Italy",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:MSL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2069,18 +1041,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:BEB",
-                            "size": 86,
-                            "description": "Bengali in Bangladesh",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:YRI",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2092,18 +1056,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GIH",
-                            "size": 103,
-                            "description": "Gujarati Indian in Houston, TX",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CLM",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2115,18 +1071,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ITU",
-                            "size": 102,
-                            "description": "Indian Telugu in the UK",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:MXL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2138,18 +1086,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PJL",
-                            "size": 96,
-                            "description": "Punjabi in Lahore, Pakistan",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:PEL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2161,18 +1101,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:STU",
-                            "size": 102,
-                            "description": "Sri Lankan Tamil in the UK",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:PUR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2184,70 +1116,13 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:ALL",
-                            "size": 248894,
-                            "description": "All gnomAD exomes individuals",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": [
-                                {
-                                "name": "gnomADe:afr"
-                                },
-                                {
-                                "name": "gnomADg:ami"
-                                },
-                                {
-                                "name": "gnomADg:amr"
-                                },
-                                {
-                                "name": "gnomADg:asj"   
-                                },
-                                {
-                                "name": "gnomADg:mid"
-                                },
-                                {
-                                "name": "gnomADg:nfe"
-                                },
-                                {
-                                "name": "gnomADg:oth"
-                                },
-                                {
-                                "name": "gnomADg:sas"
-                                }
-                                
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:CDX",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 4.018e-05  ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
-                "version": "r2.1.1",
-                "release_date": "2021-01-23",
-                "source": {}
-                },
-            "qc_filter": {},
-            "is_minor_allele": true,
-            "is_hpmaf": true
-            },
-            {
-            "population": {
-                            "name": " gnomADe:afr",
-                            "size": 16104,
-                            "description": "African/African American",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
-            "allele_count": null,
-            "allele_number": null,
-            "allele_frequency": 0.000 ,
-            "dataset":
-                {
-                "version": "r2.1.1",
+                "version": "2.1",
                 "release_date": "2021-01-23",
                 "source": {}
                 },
@@ -2256,21 +1131,13 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:amr",
-                            "size": 34402,
-                            "description": "Latino",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CHB",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 0.000 ,
+            "allele_frequency": 0.0005,
             "dataset":
                 {
-                "version": "r2.1.1",
+                "version": "2.1",
                 "release_date": "2021-01-23",
                 "source": {}
                 },
@@ -2279,21 +1146,13 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:asj",
-                            "size": 10010,
-                            "description": "Ashkenazi Jewish",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CHS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 0.000 ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
-                "version": "r2.1.1",
+                "version": "2.1",
                 "release_date": "2021-01-23",
                 "source": {}
                 },
@@ -2302,41 +1161,190 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:eas",
-                            "size": 18182,
-                            "description": "East Asian",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:JPT",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 0.001 ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
-                "version": "r2.1.1",
+                "version": "2.1",
                 "release_date": "2021-01-23",
                 "source": {}
                 },
             "qc_filter": {},
-            "is_minor_allele": true,
-            "is_hpmaf": true
+            "is_minor_allele": false,
+            "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:fin",
-                            "size": 21578,
-                            "description": "Finnish",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:KHV",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 0.000 ,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": "1000GENOMES:phase_3:CEU",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": "1000GENOMES:phase_3:FIN",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": "1000GENOMES:phase_3:GBR",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": "1000GENOMES:phase_3:IBS",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": "1000GENOMES:phase_3:TSI",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": "1000GENOMES:phase_3:BEB",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": "1000GENOMES:phase_3:GIH",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": "1000GENOMES:phase_3:ITU",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": "1000GENOMES:phase_3:PJL",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": "1000GENOMES:phase_3:STU",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": " gnomADe:ALL",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -2348,18 +1356,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:nfe",
-                            "size": 112036,
-                            "description": "Non-finnish European",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:afr",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 0.000 ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -2371,18 +1371,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:oth",
-                            "size": 6066,
-                            "description": "Other",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:amr",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 0.000 ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -2394,18 +1386,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:sas",
-                            "size": 30516,
-                            "description": "South Asian",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:asj",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 0.000 ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -2415,7 +1399,82 @@
             "qc_filter": {},
             "is_minor_allele": false,
             "is_hpmaf": false
-            }    
+            },
+            {
+            "population": " gnomADe:eas",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "r2.1.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": " gnomADe:fin",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "r2.1.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": " gnomADe:nfe",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "r2.1.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": " gnomADe:oth",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "r2.1.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": " gnomADe:sas",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "r2.1.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            }  
         ],
         "phenotype_assertions": [{   
         }]
@@ -2492,79 +1551,10 @@
         }],
         "population_frequencies" : [
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ALL",
-                            "size": 2504,
-                            "description": "All phase 3 individuals",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:AFR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:AMR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:EAS"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:EUR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:SAS"
-                                }
-                            ]
-                },
-                "allele_count": null,
-                "allele_number": null,
-                "allele_frequency": null ,
-                "dataset":
-                    {
-                    "version": "2.1",
-                    "release_date": "2021-01-23",
-                    "source": {}
-                    },
-                "qc_filter": {},
-                "is_minor_allele": false,
-                "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:AFR",
-                            "size": 661,
-                            "description": "African",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:ACB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ASW"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ESN"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GWD"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:LWK"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:MSL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:YRI"
-                                }
-                        ]
-            },
+            "population":  "1000GENOMES:phase_3:ALL",              
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2576,31 +1566,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:AMR",
-                            "size": 347,
-                            "description": "American",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CLM"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:MXL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PER"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PUR"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:AFR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2612,31 +1581,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:EAS",
-                            "size": 504,
-                            "description": "East Asian",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CDX"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:CHB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:JPT"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:KHV"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:AMR",                   
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2648,34 +1596,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:EUR",
-                            "size": 503,
-                            "description": "European",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CEU"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:FIN"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GBR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:IBS"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:TSI"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:EAS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2687,34 +1611,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:SAS",
-                            "size": 489,
-                            "description": "South Asian",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:BEB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GIH"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ITU"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PJL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:STU"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:EUR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2726,18 +1626,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ACB",
-                            "size": 96,
-                            "description": "African Caribbean in Barbados",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:SAS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2749,18 +1641,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ASW",
-                            "size": 61,
-                            "description": "African Ancestry in Southwest US",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ACB",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2772,18 +1656,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ESN",
-                            "size": 99,
-                            "description": "Esan in Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ASW",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2795,18 +1671,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GWD",
-                            "size": 113,
-                            "description": "Gambian in Western Division, The Gambia",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ESN",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2818,18 +1686,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:LWK",
-                            "size": 99,
-                            "description": "Luhya in Webuye, Kenya",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:GWD",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2841,18 +1701,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:MSL",
-                            "size": 85,
-                            "description": "Mende in Sierra Leone",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:LWK",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2864,18 +1716,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CLM",
-                            "size": 94,
-                            "description": "Yoruba in Ibadan, Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:MSL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2887,18 +1731,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:YRI",
-                            "size": 108,
-                            "description": "Yoruba in Ibadan, Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CLM",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2910,18 +1746,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CLM",
-                            "size": 94,
-                            "description": "Colombian in Medellin, Colombia",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:YRI",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2933,18 +1761,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:MXL",
-                            "size": 64,
-                            "description": "Mexican Ancestry in Los Angeles, California",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CLM",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2956,18 +1776,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PEL",
-                            "size": 85,
-                            "description": "Peruvian in Lima, Peru",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:MXL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -2979,18 +1791,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PUR",
-                            "size": 104,
-                            "description": "Puerto Rican in Puerto Rico",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:PEL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3002,18 +1806,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CDX",
-                            "size": 93,
-                            "description": "Chinese Dai in Xishuangbanna, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:PUR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3025,18 +1821,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CHB",
-                            "size": 102,
-                            "description": "Han Chinese in Bejing, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CDX",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3048,18 +1836,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CHS",
-                            "size": 105,
-                            "description": "Southern Han Chinese, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CHB",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3071,18 +1851,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:JPT",
-                            "size": 104,
-                            "description": "Japanese in Tokyo, Japan",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CHS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3094,18 +1866,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:KHV",
-                            "size": 99,
-                            "description": "Kinh in Ho Chi Minh City, Vietnam",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:JPT",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3117,18 +1881,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CEU",
-                            "size": 99,
-                            "description": "Utah residents with Northern and Western European ancestry",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:KHV",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3140,18 +1896,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:FIN",
-                            "size": 99,
-                            "description": "Finnish in Finland",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CEU",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3163,18 +1911,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GBR",
-                            "size": 91,
-                            "description": "British in England and Scotland",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:FIN",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3186,18 +1926,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:IBS",
-                            "size": 107,
-                            "description": "Iberian populations in Spain",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:GBR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3209,18 +1941,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:TSI",
-                            "size": 107,
-                            "description": "Toscani in Italy",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:IBS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3232,18 +1956,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:BEB",
-                            "size": 86,
-                            "description": "Bengali in Bangladesh",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:TSI",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3255,18 +1971,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GIH",
-                            "size": 103,
-                            "description": "Gujarati Indian in Houston, TX",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:BEB",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3278,18 +1986,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ITU",
-                            "size": 102,
-                            "description": "Indian Telugu in the UK",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:GIH",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3301,18 +2001,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PJL",
-                            "size": 96,
-                            "description": "Punjabi in Lahore, Pakistan",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ITU",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3324,18 +2016,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:STU",
-                            "size": 102,
-                            "description": "Sri Lankan Tamil in the UK",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:PJL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3347,44 +2031,25 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:ALL",
-                            "size": 248894,
-                            "description": "All gnomAD exomes individuals",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": [
-                                {
-                                "name": "gnomADe:afr"
-                                },
-                                {
-                                "name": "gnomADg:ami"
-                                },
-                                {
-                                "name": "gnomADg:amr"
-                                },
-                                {
-                                "name": "gnomADg:asj"   
-                                },
-                                {
-                                "name": "gnomADg:mid"
-                                },
-                                {
-                                "name": "gnomADg:nfe"
-                                },
-                                {
-                                "name": "gnomADg:oth"
-                                },
-                                {
-                                "name": "gnomADg:sas"
-                                }
-                                
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:STU",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
+            "dataset":
+                {
+                "version": "2.1",
+                "release_date": "2021-01-23",
+                "source": {}
+                },
+            "qc_filter": {},
+            "is_minor_allele": false,
+            "is_hpmaf": false
+            },
+            {
+            "population": " gnomADe:ALL",
+            "allele_count": null,
+            "allele_number": null,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -3396,18 +2061,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:afr",
-                            "size": 16104,
-                            "description": "African/African American",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:afr",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -3419,18 +2076,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:amr",
-                            "size": 34402,
-                            "description": "Latino",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:amr",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -3442,18 +2091,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:asj",
-                            "size": 10010,
-                            "description": "Ashkenazi Jewish",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:asj",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -3465,18 +2106,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:eas",
-                            "size": 18182,
-                            "description": "East Asian",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:eas",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -3488,18 +2121,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:fin",
-                            "size": 21578,
-                            "description": "Finnish",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:fin",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -3511,18 +2136,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:nfe",
-                            "size": 112036,
-                            "description": "Non-finnish European",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:nfe",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -3534,18 +2151,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:oth",
-                            "size": 6066,
-                            "description": "Other",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:oth",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -3557,18 +2166,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:sas",
-                            "size": 30516,
-                            "description": "South Asian",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:sas",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 0.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -3578,7 +2179,7 @@
             "qc_filter": {},
             "is_minor_allele": false,
             "is_hpmaf": false
-            } 
+            }  
         ],
         "phenotype_assertions": [{   
         }]
@@ -3621,79 +2222,10 @@
         "prediction_results": [],
         "population_frequencies" : [
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ALL",
-                            "size": 2504,
-                            "description": "All phase 3 individuals",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:AFR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:AMR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:EAS"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:EUR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:SAS"
-                                }
-                            ]
-                },
-                "allele_count": null,
-                "allele_number": null,
-                "allele_frequency": 0.9998003194888 ,
-                "dataset":
-                    {
-                    "version": "2.1",
-                    "release_date": "2021-01-23",
-                    "source": {}
-                    },
-                "qc_filter": {},
-                "is_minor_allele": false,
-                "is_hpmaf": false
-            },
-            {
-            "population": {
-                            "name": "1000GENOMES:phase_3:AFR",
-                            "size": 661,
-                            "description": "African",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:ACB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ASW"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ESN"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GWD"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:LWK"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:MSL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:YRI"
-                                }
-                        ]
-            },
+            "population":  "1000GENOMES:phase_3:ALL",              
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 0.999800319488818,
             "dataset":
                 {
                 "version": "2.1",
@@ -3705,31 +2237,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:AMR",
-                            "size": 347,
-                            "description": "American",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CLM"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:MXL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PER"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PUR"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:AFR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3741,31 +2252,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:EAS",
-                            "size": 504,
-                            "description": "East Asian",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CDX"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:CHB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:JPT"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:KHV"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:AMR",                   
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  0.999 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3777,34 +2267,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:EUR",
-                            "size": 503,
-                            "description": "European",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:CEU"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:FIN"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GBR"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:IBS"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:TSI"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:EAS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 0.999,
             "dataset":
                 {
                 "version": "2.1",
@@ -3816,34 +2282,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:SAS",
-                            "size": 489,
-                            "description": "South Asian",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": [
-                                {
-                                "name": "1000GENOMES:phase_3:BEB"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:GIH"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:ITU"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:PJL"
-                                },
-                                {
-                                "name": "1000GENOMES:phase_3:STU"
-                                }
-                            ]
-                },
+            "population": "1000GENOMES:phase_3:EUR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3855,18 +2297,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ACB",
-                            "size": 96,
-                            "description": "African Caribbean in Barbados",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:SAS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3878,18 +2312,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ASW",
-                            "size": 61,
-                            "description": "African Ancestry in Southwest US",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ACB",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3901,18 +2327,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ESN",
-                            "size": 99,
-                            "description": "Esan in Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ASW",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3924,18 +2342,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GWD",
-                            "size": 113,
-                            "description": "Gambian in Western Division, The Gambia",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ESN",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3947,18 +2357,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:LWK",
-                            "size": 99,
-                            "description": "Luhya in Webuye, Kenya",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:GWD",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3970,18 +2372,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:MSL",
-                            "size": 85,
-                            "description": "Mende in Sierra Leone",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:LWK",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -3993,18 +2387,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CLM",
-                            "size": 94,
-                            "description": "Yoruba in Ibadan, Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:MSL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4016,18 +2402,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:YRI",
-                            "size": 108,
-                            "description": "Yoruba in Ibadan, Nigeria",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:YRI",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4039,18 +2417,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CLM",
-                            "size": 94,
-                            "description": "Colombian in Medellin, Colombia",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CLM",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4062,18 +2432,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:MXL",
-                            "size": 64,
-                            "description": "Mexican Ancestry in Los Angeles, California",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:MXL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4085,18 +2447,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PEL",
-                            "size": 85,
-                            "description": "Peruvian in Lima, Peru",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:PEL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4108,18 +2462,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PUR",
-                            "size": 104,
-                            "description": "Puerto Rican in Puerto Rico",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:PUR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4131,18 +2477,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CDX",
-                            "size": 93,
-                            "description": "Chinese Dai in Xishuangbanna, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CDX",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency":  1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4154,18 +2492,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CHB",
-                            "size": 102,
-                            "description": "Han Chinese in Bejing, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CHB",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 0.995 ,
+            "allele_frequency": 0.995,
             "dataset":
                 {
                 "version": "2.1",
@@ -4177,18 +2507,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CHS",
-                            "size": 105,
-                            "description": "Southern Han Chinese, China",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CHS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": null ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4200,18 +2522,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:JPT",
-                            "size": 104,
-                            "description": "Japanese in Tokyo, Japan",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:JPT",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4223,18 +2537,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:KHV",
-                            "size": 99,
-                            "description": "Kinh in Ho Chi Minh City, Vietnam",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:KHV",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4246,18 +2552,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:CEU",
-                            "size": 99,
-                            "description": "Utah residents with Northern and Western European ancestry",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:CEU",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4269,18 +2567,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:FIN",
-                            "size": 99,
-                            "description": "Finnish in Finland",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:FIN",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4292,18 +2582,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GBR",
-                            "size": 91,
-                            "description": "British in England and Scotland",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:GBR",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4315,18 +2597,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:IBS",
-                            "size": 107,
-                            "description": "Iberian populations in Spain",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:IBS",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4338,18 +2612,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:TSI",
-                            "size": 107,
-                            "description": "Toscani in Italy",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:TSI",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4361,18 +2627,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:BEB",
-                            "size": 86,
-                            "description": "Bengali in Bangladesh",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:BEB",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4384,18 +2642,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:GIH",
-                            "size": 103,
-                            "description": "Gujarati Indian in Houston, TX",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:GIH",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4407,18 +2657,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:ITU",
-                            "size": 102,
-                            "description": "Indian Telugu in the UK",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:ITU",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4430,18 +2672,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:PJL",
-                            "size": 96,
-                            "description": "Punjabi in Lahore, Pakistan",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:PJL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4453,18 +2687,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": "1000GENOMES:phase_3:STU",
-                            "size": 102,
-                            "description": "Sri Lankan Tamil in the UK",
-                            "is_global": true,
-                            "is_from_genotypes": true,
-                            "display_group_name": "1000Genomes Phase 3",
-                            "sub_populations": []
-                },
+            "population": "1000GENOMES:phase_3:STU",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "2.1",
@@ -4476,44 +2702,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:ALL",
-                            "size": 248894,
-                            "description": "All gnomAD exomes individuals",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": [
-                                {
-                                "name": "gnomADe:afr"
-                                },
-                                {
-                                "name": "gnomADg:ami"
-                                },
-                                {
-                                "name": "gnomADg:amr"
-                                },
-                                {
-                                "name": "gnomADg:asj"   
-                                },
-                                {
-                                "name": "gnomADg:mid"
-                                },
-                                {
-                                "name": "gnomADg:nfe"
-                                },
-                                {
-                                "name": "gnomADg:oth"
-                                },
-                                {
-                                "name": "gnomADg:sas"
-                                }
-                                
-                            ]
-                },
+            "population": " gnomADe:ALL",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -4525,18 +2717,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:afr",
-                            "size": 16104,
-                            "description": "African/African American",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:afr",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -4548,18 +2732,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:amr",
-                            "size": 34402,
-                            "description": "Latino",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:amr",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -4571,18 +2747,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:asj",
-                            "size": 10010,
-                            "description": "Ashkenazi Jewish",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:asj",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -4594,18 +2762,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:eas",
-                            "size": 18182,
-                            "description": "East Asian",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:eas",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 0.9995 ,
+            "allele_frequency": 0.9995,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -4617,18 +2777,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:fin",
-                            "size": 21578,
-                            "description": "Finnish",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:fin",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -4640,18 +2792,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:nfe",
-                            "size": 112036,
-                            "description": "Non-finnish European",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:nfe",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -4663,18 +2807,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:oth",
-                            "size": 6066,
-                            "description": "Other",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:oth",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -4686,18 +2822,10 @@
             "is_hpmaf": false
             },
             {
-            "population": {
-                            "name": " gnomADe:sas",
-                            "size": 30516,
-                            "description": "South Asian",
-                            "is_global": true,
-                            "is_from_genotypes": false,
-                            "display_group_name": "gnomAD exomes r2.1.1",
-                            "sub_populations": []
-                },
+            "population": " gnomADe:sas",
             "allele_count": null,
             "allele_number": null,
-            "allele_frequency": 1.000 ,
+            "allele_frequency": 1.00,
             "dataset":
                 {
                 "version": "r2.1.1",
@@ -4707,7 +2835,7 @@
             "qc_filter": {},
             "is_minor_allele": false,
             "is_hpmaf": false
-            } 
+            }  
         ],
         "phenotype_assertions": [{   
         }]
