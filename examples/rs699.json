@@ -224,35 +224,7 @@
                                                                     }
                                             }],
                     "population_frequencies" : [{
-                                                    "population": {
-                                                                    "name": "1000GENOMES:phase_3:ALL",
-                                                                    "size": 2504,
-                                                                    "description": "All phase 3 individuals",
-                                                                    "is_global": true,
-                                                                    "is_from_genotypes": true,
-                                                                    "display_group_name": "1000Genomes Phase 3",
-                                                                    "sub_populations": [
-                                                                        {
-                                                                            "name": "1000GENOMES:phase_3:AFR",
-                                                                            "sub_populations": [
-                                                                                {
-                                                                                    "name": "1000GENOMES:phase_3:ACB" 
-                                                                                }
-                                                                            ]
-                                                                        },
-                                                                        {
-                                                                            "name": "1000GENOMES:phase_3:AMR",
-                                                                            "type": {
-                                                                                "accession_id": "population_type.1000GENOMES:phase_3",
-                                                                                "value": "AMR",
-                                                                                "label": "AMR",
-                                                                                "definition": "AMR population in 1000 genomes",
-                                                                                "description": ""
-                                                                            }
-                                                                        }
-
-                                                                    ]
-                                                                },
+                                                    "population": "1000GENOMES:phase_3:ALL",
                                                     "allele_count": 3531,
                                                     "allele_number": 5008,
                                                     "allele_frequency": 0.705 ,
@@ -378,28 +350,7 @@
                     "alternative_names": [],
                     "prediction_results": [],
                     "population_frequencies" : [{
-                                                "population": {
-                                                                "name": "1000GENOMES:phase_3:ALL",
-                                                                "size": 2504,
-                                                                "description": "All phase 3 individuals",
-                                                                "is_global": true,
-                                                                "is_from_genotypes": true,
-                                                                "display_group_name": "1000Genomes Phase 3",
-                                                                "sub_populations": [
-                                                                    {
-                                                                        "name": "1000GENOMES:phase_3:AFR",
-                                                                        "sub_populations": [
-                                                                            {
-                                                                                "name": "1000GENOMES:phase_3:ACB"
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    {
-                                                                        "name": "1000GENOMES:phase_3:AMR"
-                                                                    }
-
-                                                                ]
-                                                            },
+                                                "population": "1000GENOMES:phase_3:ALL",
                                                 "allele_count": 1477,
                                                 "allele_number": 5008,
                                                 "allele_frequency": 0.295,
