@@ -4484,7 +4484,7 @@
             }
         },
         "allele_sequence": "ATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "ATATATATATATAT",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0001411",
