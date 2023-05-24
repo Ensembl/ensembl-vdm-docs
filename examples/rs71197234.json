@@ -19,7 +19,7 @@
             }
     },
     "allele_type": {
-        "accession_id": "SO:0000667 ",
+        "accession_id": "SO:0000667",
         "value": "insertion",
         "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:0000667",
         "source": {
@@ -67,7 +67,7 @@
                             },
                             { 
                                 "score":  null,
-                                "result": "intergenic variant" ,
+                                "result": "intergenic_variant" ,
                                 "classification": {},
                                 "analysis_method":  {  
                                                         "tool": "Ensembl VEP", 
@@ -106,7 +106,7 @@
         "reference_sequence": "",
         "type": "VariantAllele",
         "allele_type": {
-            "accession_id": "SO:0000667 ",
+            "accession_id": "SO:0000667",
             "value": "insertion",
             "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:0000667",
             "source": {
@@ -418,7 +418,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ATACACATATATATATATAT",
@@ -755,7 +756,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ATATATATATACACATATATATATATAT",
@@ -1092,7 +1094,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ATATATATATATATACACATATATATATATAT",
@@ -1429,7 +1432,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ATACATATATATACACATATATATATATAT",
@@ -1766,7 +1770,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ATATACACATATATATATATAT",
@@ -2103,7 +2108,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ACACACACACATATATATATATAT",
@@ -2440,7 +2446,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ATATATATATATACATATATATATATAT",
@@ -2777,7 +2784,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ATACATATATATATATAT",
@@ -3114,7 +3122,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ATATATACATATATATATATAT",
@@ -3451,7 +3460,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ACACATATATATATATAT",
@@ -3788,7 +3798,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ATATACATATATATATATAT",
@@ -4125,7 +4136,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932522::ACATATATATATATAT",
@@ -4462,7 +4474,8 @@
             "is_hpmaf": true
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         },
         {
         "name": "NC_000013.11:57932509:ATATATATATATAT:ATATATATATATAT",
@@ -4781,7 +4794,8 @@
             "is_hpmaf": false
         }
 
-        ]
+        ],
+        "phenotype_assertions": []
         }
 
     ]
