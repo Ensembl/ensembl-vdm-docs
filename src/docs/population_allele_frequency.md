@@ -4,7 +4,7 @@ The frequency of an allele in a population
 
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
-| population        | Population      | see [Population](./population.md)
+| population        | string          | Name of the population (used by PopulationAPI)
 | allele_count      | integer or null | Number of individuals/samples in the population where variant allele is found
 | allele_number     | integer or null | Total number of alleles in called genotypes
 | allele_frequency  | float   | Frequency of this allele in the population
