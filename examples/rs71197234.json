@@ -103,7 +103,7 @@
             }
         },
         "allele_sequence": "ATATATATATATACACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667",
@@ -486,7 +486,7 @@
             }
         },
         "allele_sequence": "ATACACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -846,7 +846,7 @@
             }
         },
         "allele_sequence": "ATATATATATACACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -1229,7 +1229,7 @@
             }
         },
         "allele_sequence": "ATATATATATATATACACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -1589,7 +1589,7 @@
             }
         },
         "allele_sequence": "ATACATATATATACACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -1927,7 +1927,7 @@
             }
         },
         "allele_sequence": "ATATACACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -2265,7 +2265,7 @@
             }
         },
         "allele_sequence": "ACACACACACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -2603,7 +2603,7 @@
             }
         },
         "allele_sequence": "ATATATATATATACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -2941,7 +2941,7 @@
             }
         },
         "allele_sequence": "ATACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -3279,7 +3279,7 @@
             }
         },
         "allele_sequence": "ATATATACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -3617,7 +3617,7 @@
             }
         },
         "allele_sequence": "ACACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -3955,7 +3955,7 @@
             }
         },
         "allele_sequence": "ATATACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -4293,7 +4293,7 @@
             }
         },
         "allele_sequence": "ACATATATATATATAT",
-        "reference_sequence": "",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -4612,7 +4612,7 @@
         "phenotype_assertions": []
         },
         {
-        "name": "NC_000013.11:57932509:ATATATATATATAT:ATATATATATATAT",
+        "name": "NC_000013.11:57932509::",
         "slice": {
             "location": {
             "start": 57932509,
@@ -4630,8 +4630,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ATATATATATATAT",
-        "reference_sequence": "ATATATATATATAT",
+        "allele_sequence": "-",
+        "reference_sequence": "-",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0001411",
