@@ -30,12 +30,22 @@
                     }
     },
     "primary_source":   {
-                        "id" : "dbSNP",
-                        "name": "dbSNP",
-                        "description": "NCBI db of human variants",
-                        "url":  "https://www.ncbi.nlm.nih.gov/snp/",
-                        "release": "154"
-                    },
+                        "accession_id": "rs202155613",
+                        "name": "rs202155613",
+                        "description": null,
+                        "assignment_method": {
+                            "type": "DIRECT",
+                            "description": "A reference made by an external resource of annotation to an Ensembl feature that Ensembl imports without modification"
+                        },
+                        "url": "https://www.ncbi.nlm.nih.gov/snp/rs202155613",
+                        "source": {
+                            "id" : "dbSNP",
+                            "name": "dbSNP",
+                            "description": "NCBI db of human variants",
+                            "url":  "https://www.ncbi.nlm.nih.gov/snp/",
+                            "release": "154"
+                            }
+                        },
     "type": "Variant",
     "prediction_results": [
                             {   "score": null ,
