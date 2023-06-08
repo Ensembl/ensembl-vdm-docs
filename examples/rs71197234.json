@@ -3,9 +3,9 @@
     "alternative_names": [],
     "slice": {
             "location": {
-            "start": 57932522 ,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509 ,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
                 "name": "13",
@@ -94,12 +94,12 @@
                 }],
     "alleles":  [
         {
-        "name": "NC_000013.11:57932522::ATATATATATATACACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATATATATATATATACACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -112,8 +112,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ATATATATATATACACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATATATATATATATACACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667",
@@ -431,7 +431,7 @@
         ],
         "phenotype_assertions": [{
                                                     
-            "feature": "NC_000013.11:57932522::ATATATATATATACACATATATATATATAT",
+            "feature": "NC_000013.11:57932509:A:ATATATATATATATATATATATATATACACA",
             "feature_type": "VariantAllele",
             "phenotype": {
                         "term": "BREAST-OVARIAN CANCER, FAMILIAL, SUSCEPTIBILITY TO, 2"
@@ -454,7 +454,7 @@
             },
             {
                                                     
-                "feature": "NC_000013.11:57932522::ATATATATATATACACATATATATATATAT",
+                "feature": "NC_000013.11:57932509:A:ATATATATATATATATATATATATATACACA",
                 "feature_type": "VariantAllele",
                 "phenotype": {
                             "term": "Hereditary breast ovarian cancer syndrome"
@@ -477,12 +477,12 @@
                 }]
         },
         {
-        "name": "NC_000013.11:57932522::ATACACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATATACACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -495,8 +495,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ATACACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATATACACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -813,7 +813,7 @@
 
         ],
         "phenotype_assertions": [{
-            "feature": "NC_000013.11:57932522::ATACACATATATATATATAT",
+            "feature": "NC_000013.11:57932509:A:ATATATATATATATATACACA",
             "feature_type": "VariantAllele",
             "phenotype": {
                         "term": "Hereditary cancer-predisposing syndrome"
@@ -837,12 +837,12 @@
             }]
         },
         {
-        "name": "NC_000013.11:57932522::ATATATATATACACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATATATATATATACACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -855,8 +855,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ATATATATATACACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATATATATATATACACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -1174,7 +1174,7 @@
         ],
         "phenotype_assertions": [{
                                                     
-            "feature": "NC_000013.11:57932522::ATATATATATACACATATATATATATAT",
+            "feature": "NC_000013.11:57932509:A:ATATATATATATATATATATATATACACA",
             "feature_type": "VariantAllele",
             "phenotype": {
                         "term": "BREAST-OVARIAN CANCER, FAMILIAL, SUSCEPTIBILITY TO, 2"
@@ -1197,7 +1197,7 @@
             },
             {
                                                     
-                "feature": "NC_000013.11:57932522::ATATATATATACACATATATATATATAT",
+                "feature": "NC_000013.11:57932509:A:ATATATATATATATATATATATATACACA",
                 "feature_type": "VariantAllele",
                 "phenotype": {
                             "term": "Hereditary breast ovarian cancer syndrome"
@@ -1220,12 +1220,12 @@
                 }]
         },
         {
-        "name": "NC_000013.11:57932522::ATATATATATATATACACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATATATATATATATATACACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -1238,8 +1238,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ATATATATATATATACACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATATATATATATATATACACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -1556,7 +1556,7 @@
 
         ],
         "phenotype_assertions": [{
-            "feature": "NC_000013.11:57932522::ATATATATATATATACACATATATATATATAT",
+            "feature": "NC_000013.11:57932509:A:ATATATATATATATATATATATATATATACACA",
             "feature_type": "VariantAllele",
             "phenotype": {
                         "term": "Hereditary cancer-predisposing syndrome"
@@ -1580,12 +1580,12 @@
             }]
         },
         {
-        "name": "NC_000013.11:57932522::ATACATATATATACACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATATACATATATATACACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -1598,8 +1598,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ATACATATATATACACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATATACATATATATACACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -1918,12 +1918,12 @@
         "phenotype_assertions": []
         },
         {
-        "name": "NC_000013.11:57932522::ATATACACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATATATACACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -1936,8 +1936,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ATATACACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATATATACACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -2256,12 +2256,12 @@
         "phenotype_assertions": []
         },
         {
-        "name": "NC_000013.11:57932522::ACACACACACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATACACACACACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -2274,8 +2274,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ACACACACACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATACACACACACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -2594,12 +2594,12 @@
         "phenotype_assertions": []
         },
         {
-        "name": "NC_000013.11:57932522::ATATATATATATACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATATATATATATATACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -2612,8 +2612,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ATATATATATATACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATATATATATATATACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -2932,11 +2932,11 @@
         "phenotype_assertions": []
         },
         {
-        "name": "NC_000013.11:57932522::ATACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATATACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
+            "start": 57932509,
+            "end": 57932509,
             "length": 2
             },
             "region": {
@@ -2950,8 +2950,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ATACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATATACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -3270,12 +3270,12 @@
         "phenotype_assertions": []
         },
         {
-        "name": "NC_000013.11:57932522::ATATATACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATATATATACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -3288,8 +3288,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ATATATACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATATATATACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -3608,12 +3608,12 @@
         "phenotype_assertions": []
         },
         {
-        "name": "NC_000013.11:57932522::ACACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATACACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -3626,8 +3626,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ACACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATACACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -3946,12 +3946,12 @@
         "phenotype_assertions": []
         },
         {
-        "name": "NC_000013.11:57932522::ATATACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATATATACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -3964,8 +3964,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ATATACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATATATACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -4284,12 +4284,12 @@
         "phenotype_assertions": []
         },
         {
-        "name": "NC_000013.11:57932522::ACATATATATATATAT",
+        "name": "NC_000013.11:57932509:A:ATATATATATATATACA",
         "slice": {
             "location": {
-            "start": 57932522,
-            "end": 57932523,
-            "length": 2
+            "start": 57932509,
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -4302,8 +4302,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "ACATATATATATATAT",
-        "reference_sequence": "-",
+        "allele_sequence": "ATATATATATATATACA",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0000667 ",
@@ -4622,12 +4622,12 @@
         "phenotype_assertions": []
         },
         {
-        "name": "NC_000013.11:57932509::",
+        "name": "NC_000013.11:57932509:A:A",
         "slice": {
             "location": {
             "start": 57932509,
-            "end": 57932522,
-            "length": 13
+            "end": 57932509,
+            "length": 1
             },
             "region": {
             "name": "13",
@@ -4640,8 +4640,8 @@
             "value": 1
             }
         },
-        "allele_sequence": "-",
-        "reference_sequence": "-",
+        "allele_sequence": "A",
+        "reference_sequence": "A",
         "type": "VariantAllele",
         "allele_type": {
             "accession_id": "SO:0001411",
