@@ -11,6 +11,8 @@ A variant is not a feature as it does not have a precise single location but is 
 | primary_source     |ExternalReference      | Resource the initial record came from and where the name is assigned
 | type               |string           |This is a Variant 
 | allele_type        | OntologyTermMetadata| SO type aggregation from alleles 
+| most_severe_consequence| string| Most severe consequence
+| ancestral_allele| string| Ancestral allele for the variant
 | slice              | Slice                      | Slice describing the max coordinates of all the alleles for the variant
 | prediction_results | array of PredictionResults or [ ] | These are results at variant/loci level GERP, AA
 |alleles |array of VariantAllele |List of VariantAlleles
