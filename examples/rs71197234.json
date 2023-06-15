@@ -49,7 +49,7 @@
     "type": "Variant",
     "prediction_results": [
                             {   "score": null ,
-                                "result":"ATATATATATATAT",
+                                "result":"AT",
                                 "classification": {},
                                 "analysis_method" : {   
                                                         "tool": "AncestralAllele",
