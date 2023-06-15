@@ -29,6 +29,8 @@
             "description": "The Sequence Ontology..."
         }
         },
+    "most_severe_consequence": "intergenic_variant",
+    "ancestral_allele": "ATATATATATATAT",
     "primary_source":   {
                         "accession_id": "rs71197234",
                         "name": "rs71197234",
@@ -48,16 +50,6 @@
                         },
     "type": "Variant",
     "prediction_results": [
-                            {   "score": null ,
-                                "result":"ATATATATATATAT",
-                                "classification": {},
-                                "analysis_method" : {   
-                                                        "tool": "AncestralAllele",
-                                                        "version":  "109",
-                                                        "qualifier": "",
-                                                        "reference_data": []
-                                                    }
-                            },
                             {   
                                 "score" : -0.25  ,
                                 "result": null,
@@ -74,24 +66,8 @@
                                                                         "release": null
                                                         }]
                                                     }
-                            },
-                            { 
-                                "score":  null,
-                                "result": "intergenic_variant" ,
-                                "classification": {},
-                                "analysis_method":  {  
-                                                        "tool": "Ensembl VEP", 
-                                                        "qualifier": "most severe  consequence",
-                                                        "version":  "109",
-                                                        "reference_data": [{
-                                                                        "id": "Ensembl 109",
-                                                                        "name": "Ensembl 109",
-                                                                        "description": null,
-                                                                        "url": null,
-                                                                        "release": null   
-                                                        }]
-                                                    }
-                }],
+                            }
+                            ],
     "alleles":  [
         {
         "name": "NC_000013.11:57932509:A:ATATATATATATATATATATATATATACACA",

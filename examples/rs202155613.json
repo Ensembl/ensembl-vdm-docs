@@ -29,6 +29,8 @@
                     "description": "The Sequence Ontology..."
                     }
     },
+    "most_severe_consequence": "stop_gained",
+    "ancestral_allele": "C",
     "primary_source":   {
                         "accession_id": "rs202155613",
                         "name": "rs202155613",
@@ -48,16 +50,7 @@
                         },
     "type": "Variant",
     "prediction_results": [
-                            {   "score": null ,
-                                "result":"C",
-                                "classification": {},
-                                "analysis_method" : {   
-                                                        "tool": "AncestralAllele",
-                                                        "version":  "109",
-                                                        "qualifier": "",
-                                                        "reference_data": []
-                                                    }
-                            },
+                            
                             {   
                                 "score" : -0.25  ,
                                 "result": null,
@@ -74,24 +67,7 @@
                                                                         "release": null
                                                         }]
                                                     }
-                            },
-                            { 
-                                "score":  null,
-                                "result": "stop_gained" ,
-                                "classification": {},
-                                "analysis_method":  {  
-                                                        "tool": "Ensembl VEP", 
-                                                        "qualifier": "most severe  consequence",
-                                                        "version":  "109",
-                                                        "reference_data": [{
-                                                                        "id": "Ensembl 109",
-                                                                        "name": "Ensembl 109",
-                                                                        "description": null,
-                                                                        "url": null,
-                                                                        "release": null   
-                                                        }]
-                                                    }
-                }],
+                            }],
     "alleles":  [
         {
         "name": "NC_000013.11:32379901:C:A",
