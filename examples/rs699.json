@@ -29,8 +29,6 @@
                     "description": "The Sequence Ontology..."
                     }
     },
-    "most_severe_consequence": "missense_variant",
-    "ancestral_allele": "G",
     "primary_source":   {
                         "accession_id": "rs699",
                         "name": "rs699",
@@ -50,6 +48,16 @@
                         },
     "type": "Variant",
     "prediction_results": [
+                            {   "score": null ,
+                                "result":"G",
+                                "classification": {},
+                                "analysis_method" : {   
+                                                        "tool": "AncestralAllele",
+                                                        "version":  "108",
+                                                        "qualifier": "",
+                                                        "reference_data": []
+                                                    }
+                            },
                             {   
                                 "score" : -2.88  ,
                                 "result": null,
@@ -66,8 +74,24 @@
                                                                         "release": null
                                                         }]
                                                     }
-                            }
-                            ],
+                            },
+                            { 
+                                "score":  null,
+                                "result": "missense_variant" ,
+                                "classification": {},
+                                "analysis_method":  {  
+                                                        "tool": "Ensembl VEP", 
+                                                        "qualifier": "most severe  consequence",
+                                                        "version":  "108",
+                                                        "reference_data": [{
+                                                                        "id": "Ensembl 108",
+                                                                        "name": "Ensembl 108",
+                                                                        "description": null,
+                                                                        "url": null,
+                                                                        "release": null   
+                                                        }]
+                                                    }
+                }],
     "alleles":  [{
                     "name": "NC_000001.1:230710048:A:G",
                     "slice": {
