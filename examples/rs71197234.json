@@ -48,16 +48,6 @@
                         },
     "type": "Variant",
     "prediction_results": [
-                            {   "score": null ,
-                                "result":"AT",
-                                "classification": {},
-                                "analysis_method" : {   
-                                                        "tool": "AncestralAllele",
-                                                        "version":  "109",
-                                                        "qualifier": "",
-                                                        "reference_data": []
-                                                    }
-                            },
                             {   
                                 "score" : -0.25  ,
                                 "result": null,
