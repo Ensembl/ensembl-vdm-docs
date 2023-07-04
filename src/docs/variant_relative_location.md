@@ -4,8 +4,7 @@ It is important to know where in a genomic feature a variant lies and in the cas
 
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
-| subject           | string          | The feature we are interested in, for example a VariantAllele
-| object            | string          | A reference feature sequence the subject overlaps eg. a transcript
+| object            | Feature          | A reference feature sequence the subject overlaps eg. a transcript
 | relation          | ValueSet        | Type of relative location 
 | start             | int             | Start of subject within object. May be negative if upstream 
 | end               | int             | End of subject within object 
