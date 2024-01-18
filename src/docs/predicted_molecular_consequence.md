@@ -17,6 +17,73 @@ A set of information enabling interpretation of likely variant impact on genomic
 | CDS_location | VariantRelativeLocation or null | Relative location on CDS
 | protein_location | VariantRelativeLocation or null | Relative location on protein
 
+```
+## Example for rs699 
+
+"allele_name": "G",
+"feature_stable_id": "ENST00000680783",
+
+"feature_type" : 
+{
+"accession_id": "SO:0000673",
+"value": "transcript",
+"url": "www.sequenceontology.org/browser/current_release/term/SO:0000673",
+  "source": {
+    "id": "...",
+    "name": "Sequence Ontology",
+    "url": "www.sequenceontology.org",
+    "description": "The Sequence Ontology..."
+  }
+},
+
+"consequences":
+[{
+  "accession_id": "SO:0001583",
+  "value": "missense_variant",
+  "url": "www.sequenceontology.org/browser/current_release/term/SO:0001583",
+  "source": {
+    "id": "...",
+    "name": "Sequence Ontology",
+    "url": "www.sequenceontology.org",
+    "description": "The Sequence Ontology..."
+  }
+}],
+"gene_stable_id" : "ENSG00000135744" ,
+"gene_symbol": "AGT" ,
+"variant_representation": 
+{
+	"representation": "ENST00000680783.1:c.776T>C",
+	"naming convention": "HGVS",
+	"qualifier": "coding"
+},
+"prediction_results": [] ,
+"transcript_biotype": "protein_coding",
+"cDNA_location": 
+{
+	"relation": "overlaps" ,
+	"start": 1287, # gene end - transcript end - 1
+	"end": 1287, # gene end - transcript start  - 1
+	"length": 1, # relative end - relative start + 1
+	"percentage_overlap": 1.0, 
+}
+"CDS_location": 
+{
+	"relation": "overlaps" ,
+	"start": 776, # gene end - transcript end - 1
+	"end": 776, # gene end - transcript start  - 1
+	"length": 1, # relative end - relative start + 1
+	"percentage_overlap": 1.0, 
+},
+"protein_location":
+{
+	"relation": "overlaps" ,
+	"start": 259, # gene end - transcript end - 1
+	"end": 259, # gene end - transcript start  - 1
+	"length": 1, # relative end - relative start + 1
+	"percentage_overlap": 1.0, 
+}
+```
+
 
 
 
