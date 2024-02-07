@@ -17,7 +17,7 @@
         "predicted_molecular_consequences": 
         [{
             "allele_name": "G",
-            "feature_stable_id": "ENST00000680783",
+            "stable_id": "ENST00000680783",
             "feature_type" : 
             {
             "accession_id": "SO:0000673",
@@ -65,7 +65,7 @@
                                         
                                     }
                                 ],
-            "feature_biotype": "protein_coding",
+            "transcript_biotype": "protein_coding",
             "cdna_location": 
             {
                 "relation": "overlaps" ,
@@ -97,7 +97,7 @@
         },
         {
             "allele_name": "G",
-            "feature_stable_id": "ENST00000679854",
+            "stable_id": "ENST00000679854",
             "feature_type" : 
             {
             "accession_id": "SO:0000673",
@@ -113,7 +113,7 @@
 
             "consequences":
             [{
-            "accession_id": "SO:0001583",
+            "accession_id": "SO:0001792",
             "value": "non_coding_transcript_exon_variant",
             "url": "www.sequenceontology.org/browser/current_release/term/SO:0001792",
             "source": {
@@ -127,7 +127,7 @@
             "gene_symbol": "AGT",
             "protein_stable_id": null,
             "prediction_results": [] ,
-            "feature_biotype": "retained_intron",
+            "transcript_biotype": "retained_intron",
             "cdna_location": 
             {
                 "relation": "overlaps" ,
@@ -140,7 +140,7 @@
         },
         {
             "allele_name": "G",
-            "feature_stable_id": "ENST00000681772",
+            "stable_id": "ENST00000681772",
             "feature_type" : 
             {
             "accession_id": "SO:0000673",
@@ -157,7 +157,7 @@
             "consequences":
             [{
             "accession_id": "SO:0001583",
-            "value": "missense_variant&NMD_transcript_variant",
+            "value": "missense_variant",
             "url": "www.sequenceontology.org/browser/current_release/term/SO:0001583",
             "source": {
                 "id": "...",
@@ -165,7 +165,19 @@
                 "url": "www.sequenceontology.org",
                 "description": "The Sequence Ontology..."
             }
-            }],
+            },
+            {
+                "accession_id": "SO:0002114",
+                "value": "NMD_transcript_variant",
+                "url": "www.sequenceontology.org/browser/current_release/term/SO:0002114",
+                "source": {
+                    "id": "...",
+                    "name": "Sequence Ontology",
+                    "url": "www.sequenceontology.org",
+                    "description": "The Sequence Ontology..."
+                }
+            }
+            ],
             "gene_stable_id" : "ENSG00000135744",
             "gene_symbol": "AGT",
             "protein_stable_id": null,
@@ -188,7 +200,7 @@
                                         
                                     }
                                 ],
-            "feature_biotype": "nonsense_mediated_decay",
+            "transcript_biotype": "nonsense_mediated_decay",
             "cdna_location": 
             {
                 "relation": "overlaps" ,

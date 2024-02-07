@@ -9,7 +9,7 @@ It is important to know where in a genomic feature a variant lies and in the cas
 | end               | int             | End of subject within object 
 | length            | int             | Length of overlap
 | percentage_overlap| float           | Percentage of object overlapped by the subject (Of particular interest for structural variants)
-| sequence_change   | string          | Sequence change based on the genomic feature
+| sequence_change   | string          | Sequence change based on the overlapping feature
 
 
 
