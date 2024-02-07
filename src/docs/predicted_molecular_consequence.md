@@ -65,7 +65,7 @@ A set of information enabling interpretation of likely variant impact on genomic
 	"start": 1287,
 	"end": 1287, 
 	"length": 1, 
-	"percentage_overlap": 1.0,
+	"percentage_overlap": 100,
 	"sequence_change": "T/C" 
 },
 "cds_location": 
@@ -74,7 +74,7 @@ A set of information enabling interpretation of likely variant impact on genomic
 	"start": 776, 
 	"end": 776, 
 	"length": 1, 
-	"percentage_overlap": 1.0,
+	"percentage_overlap": 100,
 	"sequence_change": "ATG/ACG" 
 },
 "protein_location":
@@ -83,7 +83,7 @@ A set of information enabling interpretation of likely variant impact on genomic
 	"start": 259, 
 	"end": 259, 
 	"length": 1, 
-	"percentage_overlap": 1.0 ,
+	"percentage_overlap": 100 ,
 	"sequence_change": "M/T" 
 }
 ```

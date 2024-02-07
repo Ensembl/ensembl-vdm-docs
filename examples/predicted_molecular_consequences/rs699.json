@@ -72,7 +72,7 @@
                 "start": 1287,
                 "end": 1287, 
                 "length": 1, 
-                "percentage_overlap": 1.0 ,
+                "percentage_overlap": 100 ,
                 "sequence_change": "T/C" 
             },
             "cds_location": 
@@ -81,7 +81,7 @@
                 "start": 776, 
                 "end": 776, 
                 "length": 1, 
-                "percentage_overlap": 1.0,
+                "percentage_overlap": 100,
                 "sequence_change": "ATG/ACG"
             },
             "protein_location":
@@ -90,7 +90,7 @@
                 "start": 259, 
                 "end": 259, 
                 "length": 1, 
-                "percentage_overlap": 1.0,
+                "percentage_overlap": 100,
                 "sequence_change": "M/T"
 
             }
@@ -134,7 +134,7 @@
                 "start": 1287,
                 "end": 1287, 
                 "length": 1, 
-                "percentage_overlap": 1.0 ,
+                "percentage_overlap": 100 ,
                 "sequence_change": "T/C" 
             }
         },
@@ -207,7 +207,7 @@
                 "start": 1287,
                 "end": 1287, 
                 "length": 1, 
-                "percentage_overlap": 1.0 ,
+                "percentage_overlap": 100 ,
                 "sequence_change": "T/C" 
             },
             "cds_location": 
@@ -216,7 +216,7 @@
                 "start": 776, 
                 "end": 776, 
                 "length": 1, 
-                "percentage_overlap": 1.0,
+                "percentage_overlap": 100,
                 "sequence_change": "ATG/ACG"
             },
             "protein_location":
@@ -225,7 +225,7 @@
                 "start": 259, 
                 "end": 259, 
                 "length": 1, 
-                "percentage_overlap": 1.0,
+                "percentage_overlap": 100,
                 "sequence_change": "M/T"
 
             }
