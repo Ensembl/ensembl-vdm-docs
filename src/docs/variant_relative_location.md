@@ -13,7 +13,9 @@ It is important to know where in a genomic feature a variant lies and in the cas
 | alt_sequence   | string          | New sequence 
 
 
-Note: For `alt_sequence`, in case of frameshift variants, "X" would be easier to handle than any of the other options for now. In the future, we replace "X" with the new protein string.
+Note: 
+For `alt_sequence`, in case of frameshift variants, "X" would be easier to handle than any of the other options for now. In the future, we replace "X" with the new protein string.
+In case of deletion, `alt_sequence` will be "-" 
 
 
 
