@@ -73,7 +73,9 @@
                 "end": 1287, 
                 "length": 1, 
                 "percentage_overlap": 100 ,
-                "sequence_change": "T/C" 
+                "ref_sequence": "T",
+                "alt_sequence": "C"
+
             },
             "cds_location": 
             {
@@ -82,7 +84,8 @@
                 "end": 776, 
                 "length": 1, 
                 "percentage_overlap": 100,
-                "sequence_change": "ATG/ACG"
+                "ref_sequence": "ATG",
+                "alt_sequence": "ACG"
             },
             "protein_location":
             {
@@ -91,7 +94,8 @@
                 "end": 259, 
                 "length": 1, 
                 "percentage_overlap": 100,
-                "sequence_change": "M/T"
+                "ref_sequence": "M",
+                "alt_sequence": "T"
 
             }
         },
@@ -135,7 +139,8 @@
                 "end": 1287, 
                 "length": 1, 
                 "percentage_overlap": 100 ,
-                "sequence_change": "T/C" 
+                "ref_sequence": "T",
+                "alt_sequence": "C"
             }
         },
         {
@@ -208,7 +213,8 @@
                 "end": 1287, 
                 "length": 1, 
                 "percentage_overlap": 100 ,
-                "sequence_change": "T/C" 
+                "ref_sequence": "T",
+                "alt_sequence": "C"
             },
             "cds_location": 
             {
@@ -217,7 +223,8 @@
                 "end": 776, 
                 "length": 1, 
                 "percentage_overlap": 100,
-                "sequence_change": "ATG/ACG"
+                "ref_sequence": "ATG",
+                "alt_sequence": "ACG"
             },
             "protein_location":
             {
@@ -226,7 +233,8 @@
                 "end": 259, 
                 "length": 1, 
                 "percentage_overlap": 100,
-                "sequence_change": "M/T"
+                "ref_sequence": "M",
+                "alt_sequence": "T"
 
             }
         }

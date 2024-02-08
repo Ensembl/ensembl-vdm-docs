@@ -9,11 +9,11 @@ It is important to know where in a genomic feature a variant lies and in the cas
 | end               | int             | End of subject within object 
 | length            | int             | Length of overlap
 | percentage_overlap| float           | Percentage of object overlapped by the subject (Of particular interest for structural variants)
-| sequence_change   | string          | Sequence change based on the overlapping feature
+| ref_sequence   | string          | Original sequence 
+| alt_sequence   | string          | New sequence 
 
 
-
-
+Note: For `alt_sequence`, in case of frameshift variants, "X" would be easier to handle than any of the other options for now. In the future, we replace "X" with the new protein string.
 
 
 
