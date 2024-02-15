@@ -49,7 +49,14 @@
             "prediction_results": [{   
                                         "score": 1  ,
                                         "result": null,
-                                        "classification": "tolerated",
+                                        "classification": 
+                                            {
+                                                "accession_id": "sift_prediction.tolerated",
+                                                "label": "tolerated",
+                                                "value": "tolerated",
+                                                "definition": "Value greater than or equal to 0.05",
+                                                "description": ""
+                                            },
                                         "analysis_method" : { 
                                                                 "tool": "SIFT"
                                                             }
@@ -58,7 +65,13 @@
                                           
                                         "score": 0  ,
                                         "result": null,
-                                        "classification": "benign",
+                                        "classification": {
+                                            "accession_id": "polyphen_prediction.benign",
+                                            "label": "benign",
+                                            "value": "benign",
+                                            "definition": "Value less than or equal to 0.446",
+                                            "description": ""
+                                        },
                                         "analysis_method" : { 
                                                                 "tool": "PolyPhen"
                                                             }
@@ -189,7 +202,14 @@
             "prediction_results": [{   
                                         "score": 1  ,
                                         "result": null,
-                                        "classification": "tolerated",
+                                        "classification": 
+                                            {
+                                                "accession_id": "sift_prediction.tolerated",
+                                                "label": "tolerated",
+                                                "value": "tolerated",
+                                                "definition": "Value greater than or equal to 0.05",
+                                                "description": ""
+                                            },
                                         "analysis_method" : { 
                                                                 "tool": "SIFT"
                                                             }
@@ -198,7 +218,13 @@
                                           
                                         "score": 0  ,
                                         "result": null,
-                                        "classification": "benign",
+                                        "classification": {
+                                            "accession_id": "polyphen_prediction.benign",
+                                            "label": "benign",
+                                            "value": "benign",
+                                            "definition": "less than or equal to 0.446",
+                                            "description": ""
+                                        },
                                         "analysis_method" : { 
                                                                 "tool": "PolyPhen"
                                                             }
