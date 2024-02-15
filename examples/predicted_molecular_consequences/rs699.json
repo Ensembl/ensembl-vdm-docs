@@ -81,7 +81,13 @@
             "transcript_biotype": "protein_coding",
             "cdna_location": 
             {
-                "relation": "overlaps" ,
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
                 "start": 1287,
                 "end": 1287, 
                 "length": 1, 
@@ -92,7 +98,13 @@
             },
             "cds_location": 
             {
-                "relation": "overlaps" ,
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
                 "start": 776, 
                 "end": 776, 
                 "length": 1, 
@@ -102,7 +114,13 @@
             },
             "protein_location":
             {
-                "relation": "overlaps" ,
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
                 "start": 259, 
                 "end": 259, 
                 "length": 1, 
@@ -147,7 +165,13 @@
             "transcript_biotype": "retained_intron",
             "cdna_location": 
             {
-                "relation": "overlaps" ,
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
                 "start": 1287,
                 "end": 1287, 
                 "length": 1, 
@@ -234,7 +258,13 @@
             "transcript_biotype": "nonsense_mediated_decay",
             "cdna_location": 
             {
-                "relation": "overlaps" ,
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
                 "start": 1287,
                 "end": 1287, 
                 "length": 1, 
@@ -244,7 +274,13 @@
             },
             "cds_location": 
             {
-                "relation": "overlaps" ,
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
                 "start": 776, 
                 "end": 776, 
                 "length": 1, 
@@ -254,7 +290,13 @@
             },
             "protein_location":
             {
-                "relation": "overlaps" ,
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
                 "start": 259, 
                 "end": 259, 
                 "length": 1, 
