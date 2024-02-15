@@ -1,0 +1,328 @@
+{   
+    "name": "rs699",
+    "alleles":  [{
+        "name": "NC_000001.1:230710048:A:G",
+        "allele_type": 
+        {
+            "accession_id": "SO:0001483",
+            "value": "SNV",
+            "url": "www.sequenceontology.org/browser/current_release/term/SO:0001483",
+            "source": {
+            "id": "...",
+            "name": "Sequence Ontology",
+            "url": "www.sequenceontology.org",
+            "description": "The Sequence Ontology..."
+            }
+        },
+        "predicted_molecular_consequences": 
+        [{
+            "allele_name": "G",
+            "stable_id": "ENST00000680783",
+            "feature_type" : 
+            {
+            "accession_id": "SO:0000673",
+            "value": "transcript",
+            "url": "www.sequenceontology.org/browser/current_release/term/SO:0000673",
+            "source": {
+                "id": "...",
+                "name": "Sequence Ontology",
+                "url": "www.sequenceontology.org",
+                "description": "The Sequence Ontology..."
+            }
+            },
+
+            "consequences":
+            [{
+            "accession_id": "SO:0001583",
+            "value": "missense_variant",
+            "url": "www.sequenceontology.org/browser/current_release/term/SO:0001583",
+            "source": {
+                "id": "...",
+                "name": "Sequence Ontology",
+                "url": "www.sequenceontology.org",
+                "description": "The Sequence Ontology..."
+            }
+            }],
+            "gene_stable_id" : "ENSG00000135744",
+            "gene_symbol": "AGT",
+            "protein_stable_id": "ENSP00000506329",
+            "prediction_results": [{   
+                                        "score": 1  ,
+                                        "result": null,
+                                        "classification": 
+                                            {
+                                                "accession_id": "sift_prediction.tolerated",
+                                                "label": "tolerated",
+                                                "value": "tolerated",
+                                                "definition": "Value greater than or equal to 0.05",
+                                                "description": ""
+                                            },
+                                        "analysis_method" : { 
+                                                                "tool": "SIFT"
+                                                            }
+                                    },
+                                    {
+                                          
+                                        "score": 0  ,
+                                        "result": null,
+                                        "classification": {
+                                            "accession_id": "polyphen_prediction.benign",
+                                            "label": "benign",
+                                            "value": "benign",
+                                            "definition": "Value less than or equal to 0.446",
+                                            "description": ""
+                                        },
+                                        "analysis_method" : { 
+                                                                "tool": "PolyPhen"
+                                                            }
+                                        
+                                    }
+                                ],
+            "transcript_biotype": "protein_coding",
+            "cdna_location": 
+            {
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
+                "start": 1287,
+                "end": 1287, 
+                "length": 1, 
+                "percentage_overlap": 100 ,
+                "ref_sequence": "T",
+                "alt_sequence": "C"
+
+            },
+            "cds_location": 
+            {
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
+                "start": 776, 
+                "end": 776, 
+                "length": 1, 
+                "percentage_overlap": 100,
+                "ref_sequence": "ATG",
+                "alt_sequence": "ACG"
+            },
+            "protein_location":
+            {
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
+                "start": 259, 
+                "end": 259, 
+                "length": 1, 
+                "percentage_overlap": 100,
+                "ref_sequence": "M",
+                "alt_sequence": "T"
+
+            }
+        },
+        {
+            "allele_name": "G",
+            "stable_id": "ENST00000679854",
+            "feature_type" : 
+            {
+            "accession_id": "SO:0000673",
+            "value": "transcript",
+            "url": "www.sequenceontology.org/browser/current_release/term/SO:0000673",
+            "source": {
+                "id": "...",
+                "name": "Sequence Ontology",
+                "url": "www.sequenceontology.org",
+                "description": "The Sequence Ontology..."
+            }
+            },
+
+            "consequences":
+            [{
+            "accession_id": "SO:0001792",
+            "value": "non_coding_transcript_exon_variant",
+            "url": "www.sequenceontology.org/browser/current_release/term/SO:0001792",
+            "source": {
+                "id": "...",
+                "name": "Sequence Ontology",
+                "url": "www.sequenceontology.org",
+                "description": "The Sequence Ontology..."
+            }
+            }],
+            "gene_stable_id" : "ENSG00000135744",
+            "gene_symbol": "AGT",
+            "protein_stable_id": null,
+            "prediction_results": [] ,
+            "transcript_biotype": "retained_intron",
+            "cdna_location": 
+            {
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
+                "start": 1287,
+                "end": 1287, 
+                "length": 1, 
+                "percentage_overlap": 100 ,
+                "ref_sequence": "T",
+                "alt_sequence": "C"
+            }
+        },
+        {
+            "allele_name": "G",
+            "stable_id": "ENST00000681772",
+            "feature_type" : 
+            {
+            "accession_id": "SO:0000673",
+            "value": "transcript",
+            "url": "www.sequenceontology.org/browser/current_release/term/SO:0000673",
+            "source": {
+                "id": "...",
+                "name": "Sequence Ontology",
+                "url": "www.sequenceontology.org",
+                "description": "The Sequence Ontology..."
+            }
+            },
+
+            "consequences":
+            [{
+            "accession_id": "SO:0001583",
+            "value": "missense_variant",
+            "url": "www.sequenceontology.org/browser/current_release/term/SO:0001583",
+            "source": {
+                "id": "...",
+                "name": "Sequence Ontology",
+                "url": "www.sequenceontology.org",
+                "description": "The Sequence Ontology..."
+            }
+            },
+            {
+                "accession_id": "SO:0002114",
+                "value": "NMD_transcript_variant",
+                "url": "www.sequenceontology.org/browser/current_release/term/SO:0002114",
+                "source": {
+                    "id": "...",
+                    "name": "Sequence Ontology",
+                    "url": "www.sequenceontology.org",
+                    "description": "The Sequence Ontology..."
+                }
+            }
+            ],
+            "gene_stable_id" : "ENSG00000135744",
+            "gene_symbol": "AGT",
+            "protein_stable_id": null,
+            "prediction_results": [{   
+                                        "score": 1  ,
+                                        "result": null,
+                                        "classification": 
+                                            {
+                                                "accession_id": "sift_prediction.tolerated",
+                                                "label": "tolerated",
+                                                "value": "tolerated",
+                                                "definition": "Value greater than or equal to 0.05",
+                                                "description": ""
+                                            },
+                                        "analysis_method" : { 
+                                                                "tool": "SIFT"
+                                                            }
+                                    },
+                                    {
+                                          
+                                        "score": 0  ,
+                                        "result": null,
+                                        "classification": {
+                                            "accession_id": "polyphen_prediction.benign",
+                                            "label": "benign",
+                                            "value": "benign",
+                                            "definition": "less than or equal to 0.446",
+                                            "description": ""
+                                        },
+                                        "analysis_method" : { 
+                                                                "tool": "PolyPhen"
+                                                            }
+                                        
+                                    }
+                                ],
+            "transcript_biotype": "nonsense_mediated_decay",
+            "cdna_location": 
+            {
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
+                "start": 1287,
+                "end": 1287, 
+                "length": 1, 
+                "percentage_overlap": 100 ,
+                "ref_sequence": "T",
+                "alt_sequence": "C"
+            },
+            "cds_location": 
+            {
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
+                "start": 776, 
+                "end": 776, 
+                "length": 1, 
+                "percentage_overlap": 100,
+                "ref_sequence": "ATG",
+                "alt_sequence": "ACG"
+            },
+            "protein_location":
+            {
+                "relation": {
+                    "accession_id": "variant_relation.overlaps",
+                    "label": "overlaps",
+                    "value": "overlaps",
+                    "definition": "The variant overlaps the feature",
+                    "description": ""
+                },
+                "start": 259, 
+                "end": 259, 
+                "length": 1, 
+                "percentage_overlap": 100,
+                "ref_sequence": "M",
+                "alt_sequence": "T"
+
+            }
+        }
+       ]
+    },
+    {
+        "name": "NC_000001.1:230710048:A:A",
+        "allele_type": 
+        {
+            "accession_id": "SO:0001411",
+            "value": "biological_region",
+            "url": "www.sequenceontology.org/browser/current_release/term/SO:0001411",
+            "source": {
+            "id": "...",
+            "name": "Sequence Ontology",
+            "url": "www.sequenceontology.org",
+            "description": "The Sequence Ontology..."
+            }
+        },  
+        "predicted_molecular_consequences": []
+    }
+]
+}
