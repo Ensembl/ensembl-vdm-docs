@@ -61,31 +61,25 @@ A set of information enabling interpretation of likely variant impact on genomic
 "transcript_biotype": "protein_coding",
 "cdna_location": 
 {
-	"relation": "overlaps" ,
 	"start": 1287,
 	"end": 1287, 
 	"length": 1, 
-	"percentage_overlap": 100,
 	"ref_sequence": "T",
 	"alt_sequence": "C" 
 },
 "cds_location": 
 {
-	"relation": "overlaps" ,
 	"start": 776, 
 	"end": 776, 
 	"length": 1, 
-	"percentage_overlap": 100,
 	"ref_sequence": "ATG",
 	"alt_sequence":   "ACG" 
 },
 "protein_location":
 {
-	"relation": "overlaps" ,
 	"start": 259, 
 	"end": 259, 
 	"length": 1, 
-	"percentage_overlap": 100 ,
 	"ref_sequence": "M",
 	"alt_sequence": "T" 
 }
