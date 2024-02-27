@@ -81,50 +81,26 @@
             "transcript_biotype": "protein_coding",
             "cdna_location": 
             {
-                "relation": {
-                    "accession_id": "variant_relation.overlaps",
-                    "label": "overlaps",
-                    "value": "overlaps",
-                    "definition": "The variant overlaps the feature",
-                    "description": ""
-                },
                 "start": 1287,
                 "end": 1287, 
                 "length": 1, 
-                "percentage_overlap": 100 ,
                 "ref_sequence": "T",
                 "alt_sequence": "C"
 
             },
             "cds_location": 
             {
-                "relation": {
-                    "accession_id": "variant_relation.overlaps",
-                    "label": "overlaps",
-                    "value": "overlaps",
-                    "definition": "The variant overlaps the feature",
-                    "description": ""
-                },
                 "start": 776, 
                 "end": 776, 
                 "length": 1, 
-                "percentage_overlap": 100,
                 "ref_sequence": "ATG",
                 "alt_sequence": "ACG"
             },
             "protein_location":
             {
-                "relation": {
-                    "accession_id": "variant_relation.overlaps",
-                    "label": "overlaps",
-                    "value": "overlaps",
-                    "definition": "The variant overlaps the feature",
-                    "description": ""
-                },
                 "start": 259, 
                 "end": 259, 
                 "length": 1, 
-                "percentage_overlap": 100,
                 "ref_sequence": "M",
                 "alt_sequence": "T"
 
@@ -165,17 +141,9 @@
             "transcript_biotype": "retained_intron",
             "cdna_location": 
             {
-                "relation": {
-                    "accession_id": "variant_relation.overlaps",
-                    "label": "overlaps",
-                    "value": "overlaps",
-                    "definition": "The variant overlaps the feature",
-                    "description": ""
-                },
                 "start": 1287,
                 "end": 1287, 
                 "length": 1, 
-                "percentage_overlap": 100 ,
                 "ref_sequence": "T",
                 "alt_sequence": "C"
             }
@@ -258,49 +226,25 @@
             "transcript_biotype": "nonsense_mediated_decay",
             "cdna_location": 
             {
-                "relation": {
-                    "accession_id": "variant_relation.overlaps",
-                    "label": "overlaps",
-                    "value": "overlaps",
-                    "definition": "The variant overlaps the feature",
-                    "description": ""
-                },
                 "start": 1287,
                 "end": 1287, 
                 "length": 1, 
-                "percentage_overlap": 100 ,
                 "ref_sequence": "T",
                 "alt_sequence": "C"
             },
             "cds_location": 
             {
-                "relation": {
-                    "accession_id": "variant_relation.overlaps",
-                    "label": "overlaps",
-                    "value": "overlaps",
-                    "definition": "The variant overlaps the feature",
-                    "description": ""
-                },
                 "start": 776, 
                 "end": 776, 
                 "length": 1, 
-                "percentage_overlap": 100,
                 "ref_sequence": "ATG",
                 "alt_sequence": "ACG"
             },
             "protein_location":
             {
-                "relation": {
-                    "accession_id": "variant_relation.overlaps",
-                    "label": "overlaps",
-                    "value": "overlaps",
-                    "definition": "The variant overlaps the feature",
-                    "description": ""
-                },
                 "start": 259, 
                 "end": 259, 
                 "length": 1, 
-                "percentage_overlap": 100,
                 "ref_sequence": "M",
                 "alt_sequence": "T"
 
