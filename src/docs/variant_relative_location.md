@@ -5,9 +5,9 @@ It is important to know where in a genomic feature a variant lies and in the cas
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
 | relation          | ValueSet or null        | Type of relative location 
-| start             | string             | Start of subject within object. May be "?" if intronic
-| end               | string             | End of subject within object.  
-| length            | int             | Length of overlap. May be negative if boundary is not known
+| start             | int or null             | Start of subject within object. May be "?" if intronic
+| end               | int or null             | End of subject within object.  
+| length            | int  or null          | Length of overlap. May be negative if boundary is not known
 | percentage_overlap| float or null         | Percentage of object overlapped by the subject (Of particular interest for structural variants)
 | ref_sequence   | string or null          | Original sequence 
 | alt_sequence   | string  or null        | New sequence 
@@ -19,9 +19,9 @@ In case of deletion, `alt_sequence` will be "-"
 
 In the case of variants with unknown start/end locations:
 For example, "628-?",  
-`start`: "628"
-`end`: "?"
-`length`: -1
+`start`: 628
+`end`: null
+`length`: null
 `ref_sequence`: null
 `alt_sequence`: null
 
