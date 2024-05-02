@@ -9,4 +9,4 @@ count_overlapped_genes | integer | Count of overlapped genes
 count_regulatory_consequences | integer | Count of regulatory consequences
 count_variant_phenotypes | integer | Count of variant phenotypes
 count_gene_phenotypes | integer | Count of gene phenotypes
-representative_population_allele_frequencies | float or null | Allele frequency for representative population
+representative_population_allele_frequency | float or null | Allele frequency for representative population

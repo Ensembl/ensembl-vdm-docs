@@ -16,7 +16,7 @@ A variant is not a feature as it does not have a precise single location but is 
 |alleles |array of VariantAllele |List of VariantAlleles
 | citations| array of Publications or [ ] |List of Publications
 | phenotype_assertions| array of PhenotypeAssertion or [ ] |Links to disease where the precise allele is unknown
-| ensembl_website_display_data| VariantDisplayData | 
+| ensembl_website_display_data| VariantDisplayData | Display data required for Ensembl Website at a Variant level
 
 
 
