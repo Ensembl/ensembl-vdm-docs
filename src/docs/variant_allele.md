@@ -17,7 +17,6 @@ It does not have a stable_id and version fields - like an intron
 | predicted_molecular_consequences| Array of PredictedMolecularConsequence or []| Shows predicted effect on transcripts
 | regulatory_predicted_molecular_consequences| Array of RegulatoryPredictedMolecularConsequence or []| Shows predicted effect on regulatory features
 | motif_predicted_molecular_consequences| Array of MotifPredictedMolecularConsequence or []| Shows predicted effect on motif features
-| predicted _molecular_consequences| Array of PredictedMolecularConsequence or []| Shows predicted  effect on transcripts, regulatory features etc. Can be empty
 | ensembl_website_display_data| VariantAlleleDisplayData | Display data required for Ensembl Website at a variant allele level
 
 
