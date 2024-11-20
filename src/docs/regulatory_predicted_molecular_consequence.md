@@ -7,7 +7,6 @@
 |feature_type|OntologyTermMetadata|SO term for feature type (eg. transcript regulatory feature)
 |sub_feature_type|OntologyTermMetadata|SO term for feature type (eg. enhancer, CTCF)
 |consequences|array of OntologyTermMetadata|SO terms for predicted impact ( eg regulatory_region_variant)
-|is_somatic|boolean|Flags if the associated variation is known to be somatic.
 |regulatory_feature_relative_location|VariantRelativeLocation or null|Relative location on regulatory feature
 
 
@@ -31,7 +30,6 @@
             "value": "regulatory_region_variant"
             }
         ],             
-        "is_somatic": false,
         "regulatory_feature_relative_location": {
             "start": 25,
             "end": 25,
