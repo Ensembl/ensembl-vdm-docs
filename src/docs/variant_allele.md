@@ -14,7 +14,10 @@ It does not have a stable_id and version fields - like an intron
 | population_frequencies| array of PopulationAlleleFrequency or []| Shows rate of occurrence in different populations. Can be empty
 | phenotype_assertions| array of Phenotype Assertion or []| Links to disease where the precise allele is known. Can be empty
 | prediction_results | array of PredictionResults or []| These are results at variant allele/loci level CADD
-| predicted _molecular_consequences| Array of PredictedMolecularConsequence or []| Shows predicted  effect on transcripts, regulatory features etc. Can be empty
+| predicted_molecular_consequences| Array of PredictedMolecularConsequence or []| Shows predicted effect on transcripts
+| regulatory_predicted_molecular_consequences| Array of RegulatoryPredictedMolecularConsequence or []| Shows predicted effect on regulatory features
+| motif_predicted_molecular_consequences| Array of MotifPredictedMolecularConsequence or []| Shows predicted effect on motif features
+
 
 
 
