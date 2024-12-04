@@ -15,9 +15,9 @@ stable_id|string|Feature stable id
 "name": "rs144601450",
 "alleles":  [{
     "name": "Y:56673840:G:C",
-    "predicted_molecular_consequences": {},
-    "regulatory_predicted_molecular_consequences": {},
-    "motif_predicted_molecular_consequences": {
+    "predicted_molecular_consequences": [],
+    "regulatory_predicted_molecular_consequences": [],
+    "motif_predicted_molecular_consequences": [{
         "allele_name": "C",
         "stable_id": "ENSM00001002745",
         "feature_type": {
@@ -39,6 +39,6 @@ stable_id|string|Feature stable id
         "motif_score_delta": -0.080969,
         "in_informative_position": true
                           
-    }
+    }]
 }]
 ```

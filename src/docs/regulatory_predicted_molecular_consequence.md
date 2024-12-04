@@ -4,8 +4,7 @@
 |-------------------|-----------------|---------------------
 |allele_name|string|Data-derived allele name
 |stable_id|string|Feature stable id
-|feature_type|OntologyTermMetadata|SO term for feature type (eg. transcript regulatory feature)
-|sub_feature_type|OntologyTermMetadata|SO term for feature type (eg. enhancer, CTCF)
+|feature_type|OntologyTermMetadata|SO term for feature type (eg. transcript, regulatory features like promoter)
 |consequences|array of OntologyTermMetadata|SO terms for predicted impact ( eg regulatory_region_variant)
 |regulatory_feature_relative_location|VariantRelativeLocation or null|Relative location on regulatory feature
 
@@ -15,15 +14,12 @@
 "alleles":  [
     {
     "name": "5:173235220:G:A",
-    "predicted_molecular_consequences": {},
-    "regulatory_predicted_molecular_consequences": {
+    "predicted_molecular_consequences": [],
+    "regulatory_predicted_molecular_consequences": [{
         "allele_name": "A",
         "stable_id": "ENSR5_94JQHZ",
         "feature_type": {
-            "value": "Regulatory Feature"
-            },
-        "sub_feature_type": {
-            "value": "Promoter"
+            "value": "promoter"
             },
         "consequences": [
             {
@@ -37,8 +33,8 @@
             "ref_sequence": "G",   
             "alt_sequence": "A"
         },
-    },
-    "motif_predicted_molecular_consequences": {}
+    }],
+    "motif_predicted_molecular_consequences": []
     }
 ]
 ```
