@@ -7,7 +7,7 @@ stable_id|string|Feature stable id
 |feature_type|OntologyTermMetadata|SO term for feature type (eg. transcript, regulatory feature, motif feature)
 |consequences|array of OntologyTermMetadata|SO terms for predicted impact ( eg TF_binding_site_variant)
 |binding_matrix_stable_id|string|Binding matrix stable id
-|motif_feature_relative_location|VariantRelativeLocation or null|Relative location on motif feature
+|motif_feature_relative_location|VariantRelativeLocation|Relative location on motif feature
 |motif_score_delta|float or null|The deviation from the score (that is derived from alignment software (e.g. MOODS)) caused by the variation.
 |in_informative_position|boolean|Flags if the variation is in an informative position.
 
@@ -21,7 +21,7 @@ stable_id|string|Feature stable id
         "allele_name": "C",
         "stable_id": "ENSM00001002745",
         "feature_type": {
-            "value": "Motif Feature"
+            "value": "TF_binding_site"
             },
         "consequences": [
             {

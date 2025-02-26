@@ -6,7 +6,7 @@
 |stable_id|string|Feature stable id
 |feature_type|OntologyTermMetadata|SO term for feature type (eg. transcript, regulatory features like promoter)
 |consequences|array of OntologyTermMetadata|SO terms for predicted impact ( eg regulatory_region_variant)
-|regulatory_feature_relative_location|VariantRelativeLocation or null|Relative location on regulatory feature
+|regulatory_feature_relative_location|VariantRelativeLocation|Relative location on regulatory feature
 
 
 ```json
