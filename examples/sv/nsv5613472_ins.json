@@ -1,0 +1,44 @@
+{   
+   "name": "nsv5613472",
+   "alternative_names": [],
+    "type": "StructuralVariationAllele",
+    "so_term": "SO:0001537",
+    "allele_type" :"SO:0001019",
+    "slice": {
+       "location": {
+          "start":727289,
+          "end":727290,
+          "length": 0
+       },
+    "region": {},
+       "strand": {
+            "code": "forward",
+            "value": 1
+        
+        }
+    },
+    "inner_location": {},
+    "outer_location": {},
+    "population_frequencies": [ ],
+    "phenotype_associations":[ {}],
+    "predicted_molecular_consequences": [{
+         
+        "transcript_stable_id": "ENST00000414688.6",
+        "feature_type" : {},
+        "gene_stable_id": "ENSG00000230021",
+        "gene_symbol": "",
+        "transcript_coverage": "", 
+        "transcript_biotype": "",
+        "prediction_results": "",
+        "cdna_location": "",
+        "cds_location": "",
+        "protein_location": "",
+        "consequences": [{
+             "value": "intron_variant"
+        },
+        {
+            "value": "non_coding_transcript_variant"
+        }
+    ]
+    }]
+}
