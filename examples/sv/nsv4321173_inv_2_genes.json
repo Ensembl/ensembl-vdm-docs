@@ -1,0 +1,68 @@
+{   
+   "name": "nsv5613472",
+   "primary_source": "DGVa",
+   "alleles": [{
+        "name": "",
+        "alternative_names": [],
+            "type": "StructuralVariationAllele",
+            "so_term": "SO:0001537",
+            "allele_type" :"SO:1000036",
+            "slice": {
+            "location": {
+                "start":87069223,
+                "end":131003716,
+                "length": 43934494
+            },
+            "region": {},
+            "strand": {
+                    "code": "forward",
+                    "value": 1
+                
+                }
+            },
+            "population_frequencies": [ ],
+            "phenotype_associations":[{}],
+            "predicted_molecular_consequences": [{
+                
+                "transcript_stable_id": "ENST00000503349.1",
+                "feature_type" : {},
+                "gene_stable_id": "ENSG00000249061",
+                "gene_symbol": "",
+                "transcript_coverage": "", 
+                "transcript_biotype": "",
+                "prediction_results": "",
+                "cdna_location": "",
+                "cds_location": "",
+                "protein_location": "",
+                "consequences": [{
+                    "value": "intron_variant"
+                },
+                {
+                    "value": "non_coding_transcript_variant"
+                }
+            ]
+            },
+            {
+                
+                "transcript_stable_id": "ENST00000662995.1",
+                "feature_type" : {},
+                "gene_stable_id": "ENSG00000233828",
+                "gene_symbol": "",
+                "transcript_coverage": "", 
+                "transcript_biotype": "",
+                "prediction_results": "",
+                "cdna_location": "",
+                "cds_location": "",
+                "protein_location": "",
+                "consequences": [{
+                    "value": "intron_variant"
+                },
+                {
+                    "value": "non_coding_transcript_variant"
+                }
+            ]
+            }
+        
+        ]
+   }]
+}
