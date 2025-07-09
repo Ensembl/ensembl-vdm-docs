@@ -1,50 +1,56 @@
-{   
-   "name": "nsv916030",
-   "alternative_names": [],
-    "type": "StructuralVariationAllele",
-    "so_term": "SO:0001537",
-    "allele_type" :"SO:0000667",
-    "slice": {
-       "location": {
-          "start": 99434951,
-          "end": 99436576,
-          "length": 1625
-       },
-    "region": {},
-       "strand": {
-            "code": "forward",
-            "value": 1
-        
-        }
-    },
-    "population_frequencies": [ ],
-    "phenotype_associations":[ {
-        "feature_name" : "nsv916030",
-        "featureType" : "variant",
-        "phenotype": {
-            "name": "Developmental delay AND/OR other significant developmental or morphological phenotypes",
-            "source" : {},
-                "ontology_terms": [] 
+{   "name": "nsv916030",
+    "primary_source": "DGVa",
+    "alleles" : [
+    {
+        "name": "",
+        "alternative_names": [],
+        "type": "StructuralVariationAllele",
+        "so_term": "SO:0001537",
+        "allele_type" :"SO:0000667",
+        "slice": {
+        "location": {
+            "start": 99434951,
+            "end": 99436576,
+            "length": 1625
         },
-        "evidence": [{
-            "source": {},
-            "assertion": "likely benign" 
-        }]
-    }],
-    "predicted_molecular_consequences": [{
-         
-        "transcript_stable_id": "ENST00000376335.8",
-        "feature_type" : {},
-        "gene_stable_id": "",
-        "gene_symbol": "",
-        "transcript_coverage": 32.64, 
-        "transcript_biotype": "",
-        "prediction_results": "",
-        "cdna_location": "",
-        "cds_location": "",
-        "protein_location": "",
-        "consequences": [{
-             "value": "feature_elongation"
+        "region": {},
+        "strand": {
+                "code": "forward",
+                "value": 1
+            
+            }
+        },
+        "population_frequencies": [ ],
+        "phenotype_associations":[ {
+            "feature_name" : "nsv916030",
+            "featureType" : "variant",
+            "phenotype": {
+                "name": "Developmental delay AND/OR other significant developmental or morphological phenotypes",
+                "source" : {},
+                    "ontology_terms": [] 
+            },
+            "evidence": [{
+                "source": {},
+                "assertion": "likely benign" 
+            }]
+        }],
+        "predicted_molecular_consequences": [{
+            
+            "transcript_stable_id": "ENST00000376335.8",
+            "feature_type" : {},
+            "gene_stable_id": "",
+            "gene_symbol": "",
+            "transcript_coverage": 32.64, 
+            "transcript_biotype": "",
+            "prediction_results": "",
+            "cdna_location": "",
+            "cds_location": "",
+            "protein_location": "",
+            "consequences": [{
+                "value": "feature_elongation"
+            }]
         }]
     }]
+
+   
 }

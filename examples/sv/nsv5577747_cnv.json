@@ -1,40 +1,43 @@
 {   
    "name": "nsv5577747",
-   "alternative_names": [],
-    "type": "StructuralVariationAllele",
-    "so_term": "SO:0001537",
-    "allele_type" :"SO:0000667",
-    "slice": {
-       "location": {
-          "start": 714324,
-          "end": 714373,
-          "length": 49
-       },
-    "region": {},
-       "strand": {
-            "code": "forward",
-            "value": 1
-        
-        }
-    },
-    "inner_location": {},
-    "outer_location": {},
-    "population_frequencies": [ ],
-    "phenotype_associations":[ {}],
-    "predicted_molecular_consequences": [{
+   "primary_source": "DGVa",
+   "alleles": [{
+      "name": "",
+      "alternative_names": [],
+      "type": "StructuralVariationAllele",
+      "so_term": "SO:0001537",
+      "allele_type" :"SO:0000667",
+      "slice": {
+         "location": {
+            "start": 714324,
+            "end": 714373,
+            "length": 49
+         },
+      "region": {},
+         "strand": {
+               "code": "forward",
+               "value": 1
          
-        "transcript_stable_id": "ENST00000414688.6",
-        "feature_type" : {},
-        "gene_stable_id": "",
-        "gene_symbol": "",
-        "transcript_coverage": 32.64, 
-        "transcript_biotype": "",
-        "prediction_results": "",
-        "cdna_location": "",
-        "cds_location": "",
-        "protein_location": "",
-        "consequences": [{
-             "value": "intron_variant"
-        }]
-    }]
+         }
+      },
+      "population_frequencies": [ ],
+      "phenotype_associations":[ {}],
+      "predicted_molecular_consequences": [{
+            
+         "transcript_stable_id": "ENST00000414688.6",
+         "feature_type" : {},
+         "gene_stable_id": "",
+         "gene_symbol": "",
+         "transcript_coverage": 32.64, 
+         "transcript_biotype": "",
+         "prediction_results": "",
+         "cdna_location": "",
+         "cds_location": "",
+         "protein_location": "",
+         "consequences": [{
+               "value": "intron_variant"
+         }]
+      }]
+   }]
+   
 }
