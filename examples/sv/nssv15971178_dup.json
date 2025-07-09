@@ -1,0 +1,43 @@
+{   
+   "name": "nssv15876835",
+   "primary_source": "DGVa",
+   "alleles": [{
+      "name": "",
+      "alternative_names": [],
+      "type": "StructuralVariationAllele",
+      "so_term": "SO:0001537",
+      "allele_type" :"SO:1000035",
+      "slice": {
+         "location": {
+            "start": 18324,
+            "end": 41328,
+            "length": 23005 
+         },
+      "region": {},
+         "strand": {
+               "code": "forward",
+               "value": 1
+         
+         }
+      },
+      "population_frequencies": [ ],
+      "phenotype_associations":[ {}],
+      "predicted_molecular_consequences": [{
+            
+         "transcript_stable_id": "ENST00000440867.1",
+         "feature_type" : {},
+         "gene_stable_id": "ENSG00000223587",
+         "gene_symbol": "",
+         "transcript_coverage": 32.64, 
+         "transcript_biotype": "",
+         "prediction_results": "",
+         "cdna_location": "",
+         "cds_location": "",
+         "protein_location": "",
+         "consequences": [{
+               "value": "transcript_amplification"
+         }]
+      }]
+   }]
+   
+}
