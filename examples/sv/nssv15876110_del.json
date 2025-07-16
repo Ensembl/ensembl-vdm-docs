@@ -1,0 +1,89 @@
+{   
+   "name": "nssv15876110",
+   "primary_source": "DGVa",
+   "alleles": [{
+      "name": "",
+      "alternative_names": [],
+      "type": "StructuralVariationAllele",
+      "so_term": "SO:0001537",
+      "allele_type" :"SO_0000159",
+      "slice": {
+         "location": {
+            "start": 2977315,
+            "end": 7774313,
+            "length": 4796999 
+         },
+      "region": {},
+         "strand": {
+               "code": "forward",
+               "value": 1
+         
+         }
+      },
+      "population_frequencies": [ ],
+      "phenotype_associations":[ {}],
+      "predicted_molecular_consequences": [{
+            
+        "transcript_stable_id": "ENST00000231948.9",
+        "feature_type" : {},
+        "gene_stable_id": "ENSG00000113851",
+        "gene_symbol": "",
+        "transcript_coverage": "", 
+        "transcript_biotype": "",
+        "prediction_results": "",
+        "cdna_location": "",
+        "cds_location": "",
+        "protein_location": "",
+        "consequences": [{
+            "value": "transcript_ablation"
+         }]
+        },
+        {
+        "transcript_stable_id": "ENST00000397459.6",
+        "feature_type" : {},
+        "gene_stable_id": "ENSG00000144619",
+        "gene_symbol": "",
+        "transcript_coverage": "", 
+        "transcript_biotype": "",
+        "prediction_results": "",
+        "cdna_location": "",
+        "cds_location": "",
+        "protein_location": "",
+        "consequences": [{
+            "value": "stop_lost"
+        },
+        {
+            "value": "feature_truncation"
+        },
+        {
+            "value": "coding_sequence_variant"
+        },
+        {
+            "value": "3_prime_UTR_variant"
+        },
+        {
+            "value": "intron_variant"
+        }
+        
+        ]
+        },
+        {
+        "transcript_stable_id": "ENST00000458338.1",
+        "feature_type" : {},
+        "gene_stable_id": "ENSG00000237566",
+        "gene_symbol": "",
+        "transcript_coverage": "", 
+        "transcript_biotype": "",
+        "prediction_results": "",
+        "cdna_location": "",
+        "cds_location": "",
+        "protein_location": "",
+        "consequences": [{
+            "value": "transcript_ablation"
+        }]
+        }
+
+    ]
+   }]
+   
+}
