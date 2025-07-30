@@ -30,12 +30,12 @@
         "feature_type" : {},
         "gene_stable_id": "ENSG00000113851",
         "gene_symbol": "",
-        "transcript_coverage": "", 
+        "transcript_coverage": 100.00, 
         "transcript_biotype": "",
-        "prediction_results": "",
-        "cdna_location": "",
-        "cds_location": "",
-        "protein_location": "",
+        "prediction_results": [],
+        "cdna_location": {},
+        "cds_location": {},
+        "protein_location": {},
         "consequences": [{
             "value": "transcript_ablation"
          }]
@@ -45,12 +45,12 @@
         "feature_type" : {},
         "gene_stable_id": "ENSG00000144619",
         "gene_symbol": "",
-        "transcript_coverage": "", 
+        "transcript_coverage": 48.15, 
         "transcript_biotype": "",
-        "prediction_results": "",
-        "cdna_location": "",
-        "cds_location": "",
-        "protein_location": "",
+        "prediction_results": [],
+        "cdna_location": {},
+        "cds_location": {},
+        "protein_location": {},
         "consequences": [{
             "value": "stop_lost"
         },
@@ -74,12 +74,12 @@
         "feature_type" : {},
         "gene_stable_id": "ENSG00000237566",
         "gene_symbol": "",
-        "transcript_coverage": "", 
+        "transcript_coverage": 100.00, 
         "transcript_biotype": "",
-        "prediction_results": "",
-        "cdna_location": "",
-        "cds_location": "",
-        "protein_location": "",
+        "prediction_results": [],
+        "cdna_location": {},
+        "cds_location": {},
+        "protein_location": {},
         "consequences": [{
             "value": "transcript_ablation"
         }]

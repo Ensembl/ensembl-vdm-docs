@@ -44,10 +44,10 @@
             "gene_symbol": "",
             "transcript_coverage": 32.64, 
             "transcript_biotype": "",
-            "prediction_results": "",
-            "cdna_location": "",
-            "cds_location": "",
-            "protein_location": "",
+            "prediction_results": [],
+            "cdna_location": {},
+            "cds_location": {},
+            "protein_location": {},
             "consequences": [{
                 "value": "feature_elongation"
             }]

@@ -32,10 +32,10 @@
                 "gene_symbol": "",
                 "transcript_coverage": "", 
                 "transcript_biotype": "",
-                "prediction_results": "",
-                "cdna_location": "",
-                "cds_location": "",
-                "protein_location": "",
+                "prediction_results": [],
+                "cdna_location": {},
+                "cds_location": {},
+                "protein_location": {},
                 "consequences": [{
                     "value": "intron_variant"
                 },
@@ -52,10 +52,10 @@
                 "gene_symbol": "",
                 "transcript_coverage": "", 
                 "transcript_biotype": "",
-                "prediction_results": "",
-                "cdna_location": "",
-                "cds_location": "",
-                "protein_location": "",
+                "prediction_results": [],
+                "cdna_location": {},
+                "cds_location": {},
+                "protein_location": {},
                 "consequences": [{
                     "value": "intron_variant"
                 },
