@@ -5,8 +5,10 @@
       "name": "",
       "alternative_names": [],
       "type": "StructuralVariationAllele",
-      "so_term": "SO:0001537",
-      "allele_type" :"SO_0000159",
+      "allele_type" :
+      {
+        "accession_id": "SO_0000159"
+      },
       "slice": {
          "location": {
             "start": 2977315,
