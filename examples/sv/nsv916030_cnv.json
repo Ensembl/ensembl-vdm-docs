@@ -22,6 +22,7 @@
             
             }
         },
+        "length": 1626,
         "population_frequencies": [ ],
         "phenotype_associations":[ {
             "feature_name" : "nsv916030",
@@ -42,7 +43,6 @@
             "feature_type" : {},
             "gene_stable_id": "",
             "gene_symbol": "",
-            "transcript_coverage": 32.64, 
             "transcript_biotype": "",
             "prediction_results": [],
             "cdna_location": {},

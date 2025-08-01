@@ -22,6 +22,7 @@
                 
                 }
             },
+            "length": 43934494,
             "population_frequencies": [ ],
             "phenotype_associations":[{}],
             "predicted_molecular_consequences": [{
@@ -30,7 +31,6 @@
                 "feature_type" : {},
                 "gene_stable_id": "ENSG00000249061",
                 "gene_symbol": "",
-                "transcript_coverage": "", 
                 "transcript_biotype": "",
                 "prediction_results": [],
                 "cdna_location": {},
@@ -50,7 +50,6 @@
                 "feature_type" : {},
                 "gene_stable_id": "ENSG00000233828",
                 "gene_symbol": "",
-                "transcript_coverage": "", 
                 "transcript_biotype": "",
                 "prediction_results": [],
                 "cdna_location": {},

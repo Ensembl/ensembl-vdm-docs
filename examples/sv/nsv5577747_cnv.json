@@ -22,6 +22,7 @@
          
          }
       },
+      "length": 50,
       "population_frequencies": [ ],
       "phenotype_associations":[ {}],
       "predicted_molecular_consequences": [{
@@ -30,7 +31,6 @@
          "feature_type" : {},
          "gene_stable_id": "",
          "gene_symbol": "",
-         "transcript_coverage": 0.24, 
          "transcript_biotype": "",
          "prediction_results": [],
          "cdna_location": {},
