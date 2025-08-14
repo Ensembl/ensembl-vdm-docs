@@ -22,6 +22,7 @@
                 
                 }
             },
+            "length": "",
             "population_frequencies": [ ],
             "phenotype_associations":[ {}],
             "predicted_molecular_consequences": [{
@@ -32,6 +33,7 @@
                 "gene_symbol": "",
                 "transcript_biotype": "",
                 "prediction_results": [],
+                "intron_number": "1/2",
                 "cdna_location": {},
                 "cds_location": {},
                 "protein_location": {},

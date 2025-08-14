@@ -44,6 +44,8 @@
             "gene_stable_id": "",
             "gene_symbol": "",
             "transcript_biotype": "",
+            "exon_number": "2-3/3",
+            "intron_number": "1-2/2",
             "prediction_results": [],
             "cdna_location": {},
             "cds_location": {},

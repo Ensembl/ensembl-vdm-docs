@@ -52,6 +52,8 @@
         "cdna_location": {},
         "cds_location": {},
         "protein_location": {},
+        "exon_number": "5-16/16" ,
+        "intron_number": "4-15/15",
         "consequences": [{
             "value": "stop_lost"
         },

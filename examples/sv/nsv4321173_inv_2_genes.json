@@ -33,6 +33,7 @@
                 "gene_symbol": "",
                 "transcript_biotype": "",
                 "prediction_results": [],
+                "intron_number": "1/2",
                 "cdna_location": {},
                 "cds_location": {},
                 "protein_location": {},
@@ -55,6 +56,7 @@
                 "cdna_location": {},
                 "cds_location": {},
                 "protein_location": {},
+                "intron_number": "2/3",
                 "consequences": [{
                     "value": "intron_variant"
                 },

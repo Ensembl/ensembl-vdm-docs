@@ -38,7 +38,21 @@
          "protein_location": {},
          "consequences": [{
                "value": "transcript_ablation"
-         }]
+         },
+         {
+         "transcript_stable_id": "ENST00000656877.1",
+         "gene_stable_id": "ENSG00000223587",
+         "consequences": [{
+               "value": "feature_truncation"
+         },
+         {
+            "value": "non_coding_transcript_exon_variant"
+         },
+         {
+             "value": "intron_variant"
+         }],
+         "exon_number": "2-4/4",
+         "intron_number": "1-3/3"
       }]
    }]
    

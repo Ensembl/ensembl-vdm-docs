@@ -32,6 +32,7 @@
                 "gene_stable_id": "ENSG00000142949",
                 "gene_symbol": "",
                 "transcript_biotype": "",
+                "intron_number": "11/33",
                 "prediction_results": [],
                 "cdna_location": {},
                 "cds_location": {},
