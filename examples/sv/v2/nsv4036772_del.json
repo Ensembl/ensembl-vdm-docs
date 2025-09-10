@@ -1,0 +1,78 @@
+{   
+   "name": "nsv4036772",
+   "primary_source": {
+      "accession_id": "nsv4036772",
+      "name": "nsv4036772",
+      "description": null,
+      "assignment_method": {
+            "type": "DIRECT",
+            "description": "A reference made by an external resource of annotation to an Ensembl feature that Ensembl imports without modification"
+      },
+      "url": "",
+      "source": {
+            "id" : "dbVar",
+            "name": "dbVar",
+            "description": "",
+            "url":  "https://www.ncbi.nlm.nih.gov/dbvar/variants",
+            "release": ""
+            }
+   },
+   "alleles": [{
+      "name": "nssv15851241",
+      "alternative_names": [],
+      "type": "StructuralVariationAllele",
+      "allele_type" :
+      {
+         "accession_id": "SO_0000159"
+      },
+      "slice": {
+         "location": {
+            "start": 62399,
+            "end": 62489,
+            "length": 91 
+         },
+      "region": {},
+         "strand": {
+               "code": "forward",
+               "value": 1
+         
+         }
+      },
+      "length": 91,
+      "population_frequencies": [ ],
+      "phenotype_associations":[ {}],
+      "predicted_molecular_consequences": [{
+            
+         "transcript_stable_id": "ENST00000642116",
+         "feature_type" : {},
+         "gene_stable_id": "ENSG00000290826",
+         "gene_symbol": "",
+         "transcript_biotype": "",
+         "prediction_results": [],
+         "cdna_location": {},
+         "cds_location": {},
+         "protein_location": {},
+         "consequences": [
+            {
+            "value": "non_coding_transcript_variant"
+             },
+            {
+             "value": "intron_variant"
+            }]
+        },
+        {
+         "transcript_stable_id": "ENST00000832531",
+         "gene_stable_id": "ENSG00000290826",
+         "consequences": [
+         {
+            "value": "non_coding_transcript_variant"
+         },
+         {
+             "value": "intron_variant"
+         }],
+         "exon_number": "",
+         "intron_number": "2/3"
+      }]
+   }]
+
+}
