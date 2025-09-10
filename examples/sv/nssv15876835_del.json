@@ -1,6 +1,22 @@
 {   
    "name": "nssv15876835",
-   "primary_source": "DGVa",
+   "primary_source": {
+      "accession_id": "nssv15876835",
+      "name": "nssv15876835",
+      "description": null,
+      "assignment_method": {
+            "type": "DIRECT",
+            "description": "A reference made by an external resource of annotation to an Ensembl feature that Ensembl imports without modification"
+      },
+      "url": "",
+      "source": {
+            "id" : "dbVar",
+            "name": "dbVar",
+            "description": "",
+            "url":  "https://www.ncbi.nlm.nih.gov/dbvar/variants",
+            "release": ""
+            }
+   },
    "alleles": [{
       "name": "",
       "alternative_names": [],
@@ -55,5 +71,5 @@
          "intron_number": "1-3/3"
       }]
    }]
-   
-}
+}]
+   }
