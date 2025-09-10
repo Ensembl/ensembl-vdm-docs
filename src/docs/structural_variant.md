@@ -4,7 +4,7 @@ Structural variant groups Structural Variant alleles.
 
 | Field             | Type            | Description
 |-------------------|-----------------|---------------------
-| name         | string          | Name of the variant from a known resource such as dbSNP, EVA, COSMIC
+| name         | string          | Name of the variant from a known resource such as dbVar, EVA
 | alternative_names         |array of External Reference or [ ]        | Alternative names + source info
 | primary_source     |ExternalReference      | Resource the initial record came from and where the name is assigned
 | type               |string           |This is a StructuralVariant 
