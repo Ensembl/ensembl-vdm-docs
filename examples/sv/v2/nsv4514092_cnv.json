@@ -70,5 +70,33 @@
       "phenotype_associations":[ ],
       "predicted_molecular_consequences": []
       
-    }]
+    },
+    {
+        "name": "1:714324:714373:CNV", 
+        "alternative_names": [],
+        "type": "StructuralVariationAllele",
+        "allele_type" :
+        {
+            "accession_id": "SO:0001411",
+            "value": "biological_region"
+        },
+        "slice": {
+            "location": {
+                "start": 714324,
+                "end": 714373,
+                "length": 50
+            },
+        "region": {},
+            "strand": {
+                "code": "forward",
+                "value": 1
+            
+            }
+        },
+        "copy_number": 1,
+        "population_frequencies": [ ],
+        "phenotype_associations":[ ],
+        "predicted_molecular_consequences": []
+    }
+]
 }

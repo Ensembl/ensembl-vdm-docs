@@ -73,6 +73,34 @@
          "exon_number": "",
          "intron_number": "2/3"
       }]
-   }]
+   },
+   {
+      "name": "1:62399:62489:DEL",
+      "alternative_names": [],
+      "type": "StructuralVariationAllele",
+      "allele_type" :
+      {
+         "accession_id": "SO:0001411",
+         "value": "biological_region"
+      },
+      "slice": {
+         "location": {
+            "start": 62399,
+            "end": 62489,
+            "length": 91 
+         },
+      "region": {},
+         "strand": {
+               "code": "forward",
+               "value": 1
+         
+         }
+      },
+      "length": 91,
+      "population_frequencies": [ ],
+      "phenotype_associations":[ {}],
+      "predicted_molecular_consequences": []
 
+   }
+   ]
 }

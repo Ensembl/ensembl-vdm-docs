@@ -76,6 +76,32 @@
          "intron_number": "5/5"
       }]
 
-   }]
+   },
+   {
+      "name": "1:137000:155500:DUP",
+      "alternative_names": [],
+      "type": "StructuralVariationAllele",
+      "allele_type" :{
+         "accession_id": "SO:1000035"
+      },
+      "slice": {
+         "location": {
+            "start": 137000,
+            "end": 155500,
+            "length": 18501 
+         },
+      "region": {},
+         "strand": {
+               "code": "forward",
+               "value": 1
+         
+         }
+      },
+      "length": 18501,
+      "population_frequencies": [ ],
+      "phenotype_associations":[ {}],
+      "predicted_molecular_consequences": []
+   }
+   ]
    
 }

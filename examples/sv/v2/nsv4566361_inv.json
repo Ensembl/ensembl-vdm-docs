@@ -61,5 +61,33 @@
                 }
             ]
             }]
-   }]
+   },
+   {
+        "name": "1:6551536:6552369:INV",
+        "alternative_names": [],
+            "type": "StructuralVariationAllele",
+            "allele_type" :
+            {
+                "accession_id": "SO:0001411",
+                "value": "biological_region"
+            },
+            "slice": {
+            "location": {
+                "start":6551536,
+                "end":6552369,
+                "length": 834
+            },
+            "region": {},
+            "strand": {
+                    "code": "forward",
+                    "value": 1
+                
+                }
+            },
+            "length": 834,
+            "population_frequencies": [],
+            "phenotype_associations":[],
+            "predicted_molecular_consequences": []
+    }
+    ]
 }
