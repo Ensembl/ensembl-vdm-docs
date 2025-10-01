@@ -1,0 +1,93 @@
+{   
+   "name": "1:44787748:44795491:DEL",
+   "primary_source": {
+      "accession_id": "",
+      "name": "",
+      "description": null,
+      "assignment_method": {
+            "type": "NONE"
+      },
+      "url": "",
+      "source": {
+            "id" : "dbVar",
+            "name": "dbVar",
+            "description": "",
+            "url":  "https://www.ncbi.nlm.nih.gov/dbvar/variants",
+            "release": ""
+            }
+   },
+   "alleles": [{
+      "name": "1:44787748:44795491:DEL",
+      "alternative_names": [],
+      "type": "StructuralVariationAllele",
+      "allele_type" :
+      {
+         "accession_id": "SO_0000159"
+      },
+      "slice": {
+         "location": {
+            "start": 44787748,
+            "end": 44795491,
+            "length": 1306 
+         },
+      "region": {},
+         "strand": {
+               "code": "forward",
+               "value": 1
+         
+         }
+      },
+      "length": 1306,
+      "population_frequencies": [ ],
+      "phenotype_associations":[ {}],
+      "predicted_molecular_consequences": [{
+            
+         "transcript_stable_id": "ENST00000414688",
+         "feature_type" : {},
+         "gene_stable_id": "ENSG00000230021",
+         "gene_symbol": "",
+         "transcript_biotype": "",
+         "prediction_results": [],
+         "cdna_location": {},
+         "cds_location": {},
+         "protein_location": {},
+         "consequences": [
+            {
+            "value": "splice_donor_variant"
+             },
+            {
+             "value": "splice_donor_5th_base_variant"
+            }]
+        }
+        ]
+   },
+   {
+      "name": "1:44787748:44795491:DEL",
+      "alternative_names": [],
+      "type": "StructuralVariationAllele",
+      "allele_type" :
+      {
+         "accession_id": "SO:0001411",
+         "value": "biological_region"
+      },
+      "slice": {
+         "location": {
+            "start": 44787748,
+            "end": 44795491,
+            "length": 1306 
+         },
+      "region": {},
+         "strand": {
+               "code": "forward",
+               "value": 1
+         
+         }
+      },
+      "length": 1306,
+      "population_frequencies": [ ],
+      "phenotype_associations":[ {}],
+      "predicted_molecular_consequences": []
+
+   }
+   ]
+}
