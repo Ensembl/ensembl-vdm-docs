@@ -1,0 +1,93 @@
+{   
+   "name": "12:14917329:14917786:INV",
+   "primary_source": {
+      "accession_id": "",
+      "name": "",
+      "description": null,
+      "assignment_method": {
+            "type": "NONE"
+            
+      },
+      "url": "",
+      "source": {
+            "id" : "dbVar",
+            "name": "dbVar",
+            "description": "",
+            "url":  "https://www.ncbi.nlm.nih.gov/dbvar/variants",
+            "release": ""
+            }
+   },
+   "alleles": [{
+        "name": "12:14917329:14917786:INV",
+        "alternative_names": [],
+            "type": "StructuralVariationAllele",
+            "allele_type" :
+            {
+                "accession_id": "SO:1000036"
+            },
+            "slice": {
+            "location": {
+                "start":14917329,
+                "end":14917786,
+                "length": 458 
+            },
+            "region": {},
+            "strand": {
+                    "code": "forward",
+                    "value": 1
+                
+                }
+            },
+            "length": 122,
+            "population_frequencies": [],
+            "phenotype_associations":[],
+            "predicted_molecular_consequences": [{
+                
+                "transcript_stable_id": "ENST00000464665",
+                "feature_type" : {},
+                "gene_stable_id": "ENSG00000162408",
+                "gene_symbol": "",
+                "transcript_biotype": "",
+                "intron_number": "1/1",
+                "prediction_results": [],
+                "cdna_location": {},
+                "cds_location": {},
+                "protein_location": {},
+                "consequences": [{
+                    "value": "intron_variant"
+                },
+                {
+                    "value": "non_coding_transcript_variant"
+                }
+            ]
+            }]
+   },
+   {
+        "name": "12:14917329:14917786:INV",
+        "alternative_names": [],
+            "type": "StructuralVariationAllele",
+            "allele_type" :
+            {
+                "accession_id": "SO:0001411",
+                "value": "biological_region"
+            },
+            "slice": {
+            "location": {
+                "start":14917329,
+                "end":14917786,
+                "length": 458
+            },
+            "region": {},
+            "strand": {
+                    "code": "forward",
+                    "value": 1
+                
+                }
+            },
+            "length": 122,
+            "population_frequencies": [],
+            "phenotype_associations":[],
+            "predicted_molecular_consequences": []
+    }
+    ]
+}
