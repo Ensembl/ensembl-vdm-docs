@@ -1,12 +1,11 @@
 {   
-   "name": "12:14917329:14917786:INV",
+   "name": "1:27951:0:499",
    "primary_source": {
       "accession_id": "",
       "name": "",
       "description": null,
       "assignment_method": {
             "type": "NONE"
-            
       },
       "url": "",
       "source": {
@@ -18,18 +17,18 @@
             }
    },
    "alleles": [{
-        "name": "12:14917329:14917786:INV",
+        "name": "1:27951:0:499",
         "alternative_names": [],
             "type": "StructuralVariationAllele",
             "allele_type" :
             {
-                "accession_id": "SO:1000036"
+                "accession_id": "SO:0001019"
             },
             "slice": {
             "location": {
-                "start":14917329,
-                "end":14917786,
-                "length": 458 
+                "start":27951,
+                "end":27952,
+                "length": 0
             },
             "region": {},
             "strand": {
@@ -38,18 +37,18 @@
                 
                 }
             },
-            "length": 122,
-            "population_frequencies": [],
-            "phenotype_associations":[],
+            "length": 499,
+            "population_frequencies": [ ],
+            "phenotype_associations":[ {}],
             "predicted_molecular_consequences": [{
                 
-                "transcript_stable_id": "ENST00000464665",
+                "transcript_stable_id": "ENST00000832531",
                 "feature_type" : {},
-                "gene_stable_id": "ENSG00000162408",
+                "gene_stable_id": "ENSG00000290826",
                 "gene_symbol": "",
                 "transcript_biotype": "",
-                "intron_number": "1/1",
                 "prediction_results": [],
+                "intron_number": "2/3",
                 "cdna_location": {},
                 "cds_location": {},
                 "protein_location": {},
@@ -61,9 +60,9 @@
                 }
             ]
             }]
-   },
-   {
-        "name": "12:14917329:14917786:INV",
+    },
+    {
+       "name": "1:27951:0:0",
         "alternative_names": [],
             "type": "StructuralVariationAllele",
             "allele_type" :
@@ -73,9 +72,9 @@
             },
             "slice": {
             "location": {
-                "start":14917329,
-                "end":14917786,
-                "length": 458
+                "start":27951,
+                "end":27952,
+                "length": 0
             },
             "region": {},
             "strand": {
@@ -84,9 +83,9 @@
                 
                 }
             },
-            "length": 122,
+            "length": 499,
             "population_frequencies": [],
-            "phenotype_associations":[],
+            "phenotype_associations": [], 
             "predicted_molecular_consequences": []
     }
     ]

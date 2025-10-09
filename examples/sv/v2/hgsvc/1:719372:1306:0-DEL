@@ -1,5 +1,5 @@
 {   
-   "name": "1:44787748:44795491:DEL",
+   "name": "1:719372:1306:0",
    "primary_source": {
       "accession_id": "",
       "name": "",
@@ -17,7 +17,7 @@
             }
    },
    "alleles": [{
-      "name": "1:44787748:44795491:DEL",
+      "name": "1:719372:1306:0",
       "alternative_names": [],
       "type": "StructuralVariationAllele",
       "allele_type" :
@@ -26,9 +26,9 @@
       },
       "slice": {
          "location": {
-            "start": 44787748,
-            "end": 44795491,
-            "length": 1306 
+            "start": 719372,
+            "end": 720678,
+            "length": 1306
          },
       "region": {},
          "strand": {
@@ -62,7 +62,7 @@
         ]
    },
    {
-      "name": "1:44787748:44795491:DEL",
+      "name": "1:719372:1306:1306",
       "alternative_names": [],
       "type": "StructuralVariationAllele",
       "allele_type" :
@@ -72,9 +72,9 @@
       },
       "slice": {
          "location": {
-            "start": 44787748,
-            "end": 44795491,
-            "length": 1306 
+            "start": 719372,
+            "end": 720678,
+            "length": 1306
          },
       "region": {},
          "strand": {
