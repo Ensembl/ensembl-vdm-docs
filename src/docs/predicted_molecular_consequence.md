@@ -14,8 +14,8 @@ A set of information enabling interpretation of likely variant impact on genomic
 | variant_representation | array of VariantRepresentation or [ ]  | Nomenclature values and source
 | prediction_results | array of PredictionResult or [ ] | Scores from programs like SIFT which calculate transcript-specific deleteriousness scores
 | transcript_biotype | string | Feature biotype
-| exon_number		 | string or null | Exon number affected (out of total number of exons)
-| intron_number 	 | string or null | Intron number affected (out of total number of introns)
+| exon_number_affected		 | string or null | Affected exon numbering. Format is Number/Total
+| intron_number_affected	 | string or null | Affected intron numbering. Format is Number/Total
 | cdna_location | VariantRelativeLocation or null  | Relative location on cDNA
 | cds_location | VariantRelativeLocation or null | Relative location on CDS
 | protein_location | VariantRelativeLocation or null | Relative location on protein
