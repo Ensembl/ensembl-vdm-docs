@@ -15,4 +15,4 @@ Structural variant groups Structural Variant alleles.
 | alleles |array of StructuralVariantAllele |List of VariantAlleles
 | citations| array of Publications or [ ] |List of Publications
 | phenotype_assertions| array of PhenotypeAssertion or [ ] |Links to disease where the precise allele is unknown
-| ensembl_website_display_data| VariantDisplayData | Display data required for Ensembl Website at a Variant level
+| ensembl_website_display_data| VariantDisplayData | Display data required for Ensembl Website at a Variant level (This is future work)

@@ -16,6 +16,7 @@ Currently models non-breakend SVs
 | phenotype_assertions| array of PhenotypeAssertion or []| Links to disease where the precise allele is known. Can be empty
 | prediction_results | array of PredictionResults or []| These are results at variant allele/loci level eg. CADD
 | predicted_molecular_consequences| Array of PredictedMolecularConsequence or []| Shows predicted effect on transcripts
+| ensembl_website_display_data| VariantAlleleDisplayData | Display data required for Ensembl Website at a variant allele level  (This is future work)
 
 
 
