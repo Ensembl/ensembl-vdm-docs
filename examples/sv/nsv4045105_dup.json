@@ -20,7 +20,7 @@
    "alleles": [{
       "name": "nssv15964044",
       "alternative_names": [],
-      "type": "StructuralVariationAllele",
+      "type": "StructuralVariantAllele",
       "allele_type" :{
          "accession_id": "SO:1000035"
       },
@@ -73,14 +73,15 @@
          {
              "value": "intron_variant"
          }],
-         "intron_number": "5/5"
+         "intron_number_affected": "5/5",
+         "exon_number_affected": ""
       }]
 
    },
    {
       "name": "1:137000:18501:18501",
       "alternative_names": [],
-      "type": "StructuralVariationAllele",
+      "type": "StructuralVariantAllele",
       "allele_type" :{
          "accession_id": "SO:1000035"
       },

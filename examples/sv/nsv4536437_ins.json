@@ -20,7 +20,7 @@
    "alleles": [{
         "name": "nssv16024555",
         "alternative_names": [],
-            "type": "StructuralVariationAllele",
+            "type": "StructuralVariantAllele",
             "allele_type" :
             {
                 "accession_id": "SO:0001019"
@@ -49,7 +49,8 @@
                 "gene_symbol": "",
                 "transcript_biotype": "",
                 "prediction_results": [],
-                "intron_number": "2/3",
+                "intron_number_affected": "2/3",
+                "exon_number_affected": "",
                 "cdna_location": {},
                 "cds_location": {},
                 "protein_location": {},
@@ -65,7 +66,7 @@
     {
        "name": "1:54665:0:0",
         "alternative_names": [],
-            "type": "StructuralVariationAllele",
+            "type": "StructuralVariantAllele",
             "allele_type" :
             {
                 "accession_id": "SO:0001411",

@@ -61,8 +61,8 @@ A set of information enabling interpretation of likely variant impact on genomic
 },
 "prediction_results": [] ,
 "transcript_biotype": "protein_coding",
-"exon_number": "2/5",
-"intron_number": "",	
+"exon_number_affected": "2/5",
+"intron_number_affected": "",	
 "cdna_location": 
 {
 	"start": 1287,

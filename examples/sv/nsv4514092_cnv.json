@@ -21,7 +21,7 @@
    "alleles": [{
         "name": "nssv15780791",
         "alternative_names": [],
-        "type": "StructuralVariationAllele",
+        "type": "StructuralVariantAllele",
         "allele_type" :
         {
             "accession_id": "SO:0000667"
@@ -47,7 +47,7 @@
    {
       "name": "nssv15780792",
       "alternative_names": [],
-      "type": "StructuralVariationAllele",
+      "type": "StructuralVariantAllele",
       "allele_type" :
       {
           "accession_id": "SO:0000667"
@@ -74,7 +74,7 @@
     {
         "name": "1:714324:50:50", 
         "alternative_names": [],
-        "type": "StructuralVariationAllele",
+        "type": "StructuralVariantAllele",
         "allele_type" :
         {
             "accession_id": "SO:0001411",

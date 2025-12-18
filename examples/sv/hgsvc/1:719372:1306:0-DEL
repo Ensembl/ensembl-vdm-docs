@@ -19,7 +19,7 @@
    "alleles": [{
       "name": "1:719372:1306:0",
       "alternative_names": [],
-      "type": "StructuralVariationAllele",
+      "type": "StructuralVariantAllele",
       "allele_type" :
       {
          "accession_id": "SO_0000159"
@@ -64,7 +64,7 @@
    {
       "name": "1:719372:1306:1306",
       "alternative_names": [],
-      "type": "StructuralVariationAllele",
+      "type": "StructuralVariantAllele",
       "allele_type" :
       {
          "accession_id": "SO:0001411",
