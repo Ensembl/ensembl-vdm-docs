@@ -48,8 +48,6 @@
                 "gene_stable_id": "ENSG00000162408",
                 "gene_symbol": "",
                 "transcript_biotype": "",
-                "intron_number_affected": "1/1",
-                "exon_number_affected": "",
                 "prediction_results": [],
                 "cdna_location": {},
                 "cds_location": {},

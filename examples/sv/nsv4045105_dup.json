@@ -72,9 +72,7 @@
          },
          {
              "value": "intron_variant"
-         }],
-         "intron_number_affected": "5/5",
-         "exon_number_affected": ""
+         }]
       }]
 
    },
