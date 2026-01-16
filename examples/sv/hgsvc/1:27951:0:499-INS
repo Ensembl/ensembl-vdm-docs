@@ -1,0 +1,91 @@
+{   
+   "name": "1:27951:0:499",
+   "primary_source": {
+      "accession_id": "",
+      "name": "",
+      "description": null,
+      "assignment_method": {
+            "type": "NONE"
+      },
+      "url": "",
+      "source": {
+            "id" : "dbVar",
+            "name": "dbVar",
+            "description": "",
+            "url":  "https://www.ncbi.nlm.nih.gov/dbvar/variants",
+            "release": ""
+            }
+   },
+   "alleles": [{
+        "name": "1:27951:0:499",
+        "alternative_names": [],
+            "type": "StructuralVariantAllele",
+            "allele_type" :
+            {
+                "accession_id": "SO:0001019"
+            },
+            "slice": {
+            "location": {
+                "start":27951,
+                "end":27952,
+                "length": 0
+            },
+            "region": {},
+            "strand": {
+                    "code": "forward",
+                    "value": 1
+                
+                }
+            },
+            "length": 499,
+            "population_frequencies": [ ],
+            "phenotype_associations":[ {}],
+            "predicted_molecular_consequences": [{
+                
+                "transcript_stable_id": "ENST00000832531",
+                "feature_type" : {},
+                "gene_stable_id": "ENSG00000290826",
+                "gene_symbol": "",
+                "transcript_biotype": "",
+                "prediction_results": [],
+                "cdna_location": {},
+                "cds_location": {},
+                "protein_location": {},
+                "consequences": [{
+                    "value": "intron_variant"
+                },
+                {
+                    "value": "non_coding_transcript_variant"
+                }
+            ]
+            }]
+    },
+    {
+       "name": "1:27951:0:0",
+        "alternative_names": [],
+            "type": "StructuralVariantAllele",
+            "allele_type" :
+            {
+                "accession_id": "SO:0001411",
+                "value": "biological_region"
+            },
+            "slice": {
+            "location": {
+                "start":27951,
+                "end":27952,
+                "length": 0
+            },
+            "region": {},
+            "strand": {
+                    "code": "forward",
+                    "value": 1
+                
+                }
+            },
+            "length": 499,
+            "population_frequencies": [],
+            "phenotype_associations": [], 
+            "predicted_molecular_consequences": []
+    }
+    ]
+}

@@ -1,0 +1,106 @@
+{   
+   "name": "nsv4045105",
+   "primary_source": {
+      "accession_id": "nsv4045105",
+      "name": "nsv4045105",
+      "description": null,
+      "assignment_method": {
+            "type": "DIRECT",
+            "description": "A reference made by an external resource of annotation to an Ensembl feature that Ensembl imports without modification"
+      },
+      "url": "",
+      "source": {
+            "id" : "dbVar",
+            "name": "dbVar",
+            "description": "",
+            "url":  "https://www.ncbi.nlm.nih.gov/dbvar/variants",
+            "release": ""
+            }
+   },
+   "alleles": [{
+      "name": "nssv15964044",
+      "alternative_names": [],
+      "type": "StructuralVariantAllele",
+      "allele_type" :{
+         "accession_id": "SO:1000035"
+      },
+      "slice": {
+         "location": {
+            "start": 137000,
+            "end": 155500,
+            "length": 18501 
+         },
+      "region": {},
+         "strand": {
+               "code": "forward",
+               "value": 1
+         
+         }
+      },
+      "length": 18501,
+      "population_frequencies": [ ],
+      "phenotype_associations":[ {}],
+      "predicted_molecular_consequences": [{
+            
+         "transcript_stable_id": "ENST00000493797",
+         "feature_type" : {},
+         "gene_stable_id": "ENSG00000239906",
+         "gene_symbol": "",
+         "transcript_biotype": "",
+         "prediction_results": [],
+         "cdna_location": {},
+         "cds_location": {},
+         "protein_location": {},
+         "consequences": [{
+               "value": "transcript_amplification"
+         }]
+      },
+      {
+            
+         "transcript_stable_id": "ENST00000831095",
+         "feature_type" : {},
+         "gene_stable_id": "ENSG00000241860",
+         "gene_symbol": "",
+         "transcript_biotype": "",
+         "prediction_results": [],
+         "cdna_location": {},
+         "cds_location": {},
+         "protein_location": {},
+         "consequences": [
+         {
+            "value": "non_coding_transcript_variant"
+         },
+         {
+             "value": "intron_variant"
+         }]
+      }]
+
+   },
+   {
+      "name": "1:137000:18501:18501",
+      "alternative_names": [],
+      "type": "StructuralVariantAllele",
+      "allele_type" :{
+         "accession_id": "SO:1000035"
+      },
+      "slice": {
+         "location": {
+            "start": 137000,
+            "end": 155500,
+            "length": 18501 
+         },
+      "region": {},
+         "strand": {
+               "code": "forward",
+               "value": 1
+         
+         }
+      },
+      "length": 18501,
+      "population_frequencies": [ ],
+      "phenotype_associations":[ {}],
+      "predicted_molecular_consequences": []
+   }
+   ]
+   
+}
